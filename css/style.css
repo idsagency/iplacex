@@ -952,3 +952,7 @@ a
 .panel-default>.panel-heading h2{
     font-size: 25px !important;       
 }
+
+.table-responsive a {
+    color: #bf0411 !important; 
+}

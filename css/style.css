@@ -1,0 +1,954 @@
+/*-- style - style 1 --*/
+
+html {
+    margin-top: 0 !important;
+}
+
+header.iplasex-header {
+    /*padding: 0 0 5px !important;*/
+}
+.no-margin {
+    margin:0 !important;
+}
+.no-padding{
+    padding: 0 !important;
+}
+img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+.nuevo-header {
+    height: 42px;
+    background: #bf0411;
+    /*border-bottom: 0.75px #333 solid;*/
+}
+
+a#presencial,
+a#distancia {
+    display: block;
+    float: left;
+    font-size: 14px;
+    height: 42px;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    margin: 0 10px 0 0;
+}
+
+a#distancia {
+    color: #ffffff;
+    /*background-color: #ffffff;*/
+}
+
+ul#servicios,
+ul#servicios li,
+ul#servicios li a {
+    margin-top: 0px;
+    color: #fff;
+}
+
+#btn-avirtual,
+#btn-pago {
+    margin-top: 0px;
+}
+
+.nuevo-header .col-md-2 a {
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    max-height: 100%;
+    max-width: 100%;
+    display: inline-block;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#btn-avirtual {
+    border: 1px solid;
+    padding: 5px;
+    height: 30px;
+    width: 100px;
+    margin-top: 6px;
+    font-family: Raleway;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#btn-pago {
+    background: rgba(0, 0, 0, 0) url("http://www.iplacex.cl/wp-content/themes/iplacex/img/2.png") no-repeat scroll 0 0;
+    margin-top: 6px;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+a#presencial:hover,
+.pactive {
+    background: #bf0411 none repeat scroll 0 0;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.nuevo-header .col-md-8 .col-md-2 {
+    padding: 10px 10px;
+}
+
+.nuevo-header .col-md-5,
+.nuevo-header .col-md-7 {
+    padding: 0;
+}
+
+.container-fluid.iplasex-links {
+    padding-top: 0px;
+}
+
+.call-me .col-md-8::before {
+    top: 0;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+
+.row.row-white {
+    background-color: #ffffff;
+    margin: 5px 0 0;
+}
+
+.notificate {
+    /*-- ojo --*/
+    display: none;
+    width: 325px;
+    background-color: #636363;
+    padding: 15px;
+    z-index: 1;
+    box-shadow: 0px 3px 2px 0.00px rgba(76, 76, 76, 0.37);
+    position: fixed;
+    right: 0px;
+    transform: translateX(325px);
+    transition: .4s;
+    top: 230px;
+}
+
+.notificate h4 {
+    text-align: center;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 35px;
+    line-height: 20px;
+    /* margin-bottom: 20px; */
+    /* max-width: 200px; */
+    text-transform: uppercase;
+}
+
+.notificate .web-button {
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.web-button {
+    width: 100%;
+    background-color: #3e3d3d;
+    color: #ffffff;
+    display: inline-block;
+    padding: 25px 20px 25px 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin-top: 50px;
+    border: 0;
+}
+
+.notificate.active {
+    transform: translateX(0);
+}
+
+.notificate button.close-notificate {
+    background-color: #636363;
+    border: 0;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+.notificate button.close-notificate:focus {
+    outline: none;
+}
+
+.notificate .line {
+    position: absolute;
+    content: '';
+    width: 25px;
+    height: 1px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    top: 0;
+    left: 0;
+}
+
+.notificate .line+.line {
+    transform: rotate(-45deg);
+}
+
+@media (max-width: 500px) {
+    .nuevo-header .col-md-7 .col-md-2 {
+        display: none;
+    }
+    .call-me.releway {
+    background-color: #000;
+    /*height: 500px;*/
+    background-image: url(http://www.iplacex.cl/wp-content/themes/iplacex/nuevo/images/iplasex-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    }
+    .box-why > div {
+        width: 70%;
+    }
+}
+
+
+/*Reestableciendo los estilos fallidos aplicados al sitio*/
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px !important;
+        width: inherit;
+    }
+}
+
+.releway {
+    font-family: 'Raleway', sans-serif;
+}
+
+header.iplasex-header {
+    background-color: #ffffff;
+    height: auto;
+    border-bottom: 3px solid #bf0411;
+    margin: 0;
+}
+
+.iplasex-links #logo {
+    margin-top: 10px;
+}
+
+.iplasex-header .navbar {
+    margin-bottom: 0;
+}
+
+.iplasex-links .menu-item > a {
+    color: #1b1b1b;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-style: normal;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.iplasex-links .menu-item > a:hover,
+.iplasex-links .menu-item > a:focus {
+    background: #ffffff;
+}
+
+.iplasex-links .menu-item > a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: #b8b9be;
+    bottom: 12px;
+    left: 15px;
+    transition: .4s;
+}
+
+.iplasex-links .menu-item > a:hover::after {
+    width: calc( 100% - 30px);
+}
+
+
+/*Call me*/
+
+.call-me {
+    height: 500px;
+    background-image: url(http://iplacex.cl/wp-content/themes/iplacex/nuevo/images/iplasex-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.call-me::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.call-me .container,
+.call-me .row {
+    height: 100%;
+}
+
+.call-me .row {
+    display: flex;
+}
+
+.call-me h3 {
+    font-size: 40px !important;
+    /*max-width: 461px;*/
+    color: #fff;
+    line-height: 110%;
+    text-transform: uppercase;
+}
+
+.call-me h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.form-box-cont{
+    margin-top: 25px;
+}
+.form-box-cont-2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.call-me .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.call-me .form-container {
+    background-color: rgba(0, 0, 0, 0.90);
+    color: #ffffff;
+}
+
+.call-me .form-container form {
+    color: #ffffff;
+    padding: 10px;
+}
+
+.call-me .form-container h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 1.3px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.call-me .form-container p {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.call-me .form-container input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+}
+
+.call-me .form-container label {
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+.call-me .form-container input:focus {
+    outline: none;
+}
+
+.call-me .form-container button {
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    border-radius: 0;
+    margin-top: 35px;
+}
+
+.modes {
+    background-color: #fff;
+    padding: 45px 0;
+}
+
+.modes .info-box {
+    padding-right: 45px;
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.modes .info-box h3 {
+    font-size: 20px;
+    color: #1b1b1b;
+    margin: 0;
+}
+
+.modes .info-box h4 {
+    color: #bf0411;
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.modes .info-box p {
+    color: #1b1b1b;
+    font-size: 14px;
+}
+
+.why {
+    padding: 35px 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.why h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 55px;
+}
+
+.why .box-why {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.why .box-why img {
+    margin-right: 25px;
+}
+
+.why .box-why h5 {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.why .box-why p {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+}
+
+.contablidad {
+    background: url(http://www.iplacex.cl/wp-content/themes/iplacex/nuevo/images/contabilidad.png);
+}
+
+.riegos {
+    background: url(http://www.iplacex.cl/wp-content/themes/iplacex/nuevo/images/riesgos.png);
+}
+
+.empresas {
+    background: url(http://www.iplacex.cl/wp-content/themes/iplacex/nuevo/images/empresas.png);
+}
+
+.psicopedagogia {
+    background: url(http://www.iplacex.cl/wp-content/themes/iplacex/nuevo/images/psico.png);
+}
+
+.logistica {
+    background: url(http://www.iplacex.cl/wp-content/themes/iplacex/nuevo/images/logistica.png);
+}
+
+.social {
+    background: url(http://www.iplacex.cl/wp-content/themes/iplacex/nuevo/images/social.png);
+}
+
+.dream {
+    padding: 35px 0;
+    background: #ffffff;
+}
+
+.dream h2 {
+    font-size: 32px;
+    padding-bottom: 45px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.iplasex-footer h3{
+margin-bottom: 50px;
+}
+
+.dream .carreras {
+    height: 60px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dream .carreras a {
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+/*footer*/
+
+.iplasex-footer {
+    margin: 0;
+    background-color: #1b1b1b;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 0;
+}
+
+.iplasex-footer .panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #1b1b1b;
+    box-shadow: 0 0;
+    color: #fff;
+}
+
+.panel-heading {
+    padding: 0;
+}
+
+.panel-title a {
+    display: block;
+    border-bottom: 1px solid #fff;
+    padding: 15px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    position: relative;
+    color: #ffffff;
+    padding-top: 25px;
+}
+
+.panel-title a:hover,
+.panel-title a:focus {
+    text-decoration: none;
+}
+
+.panel-title a::before {
+    content: "\f078";
+    font-family: FontAwesome;
+    color: #ffffff !important;
+    font-size: 13px;
+    position: absolute;
+    z-index: 999;
+    top: 23px;
+    transition: 0.3s;
+}
+
+.panel-title a::before {
+    right: 8px;
+    transform: rotate(0deg);
+}
+
+.panel-title a:not(.collapsed)::before {
+    transform: rotate(-180deg);
+}
+
+.panel-group .panel-heading+.panel-collapse .panel-body {
+    border-top: 0;
+}
+
+.panel-body {
+    border: 0;
+}
+
+.iplasex-footer .address {
+    margin-bottom: 30px;
+}
+
+.iplasex-footer .address p {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    line-height: 23px;
+    color: #ffffff;
+}
+
+.iplasex-footer .panel-body {
+    padding: 15px 0;
+}
+
+.iplasex-footer .links {
+    border-top: 1px solid #457544;
+    padding: 30px 0;
+    margin-top: 35px;
+}
+
+.iplasex-footer .links a {
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.iplasex-footer .links a {
+    padding: 0 15px;
+}
+
+.iplasex-footer .links > a:first-child {
+    border-right: 1px solid #ffffff;
+}
+
+.iplasex-footer .flexible {}
+
+.iplasex-footer .reclamos {
+    background: url(http://www.iplacex.cl/wp-content/themes/iplacex/nuevo/images/reclamos.png) no-repeat;
+    background-size: cover;
+    margin-top: 45px;
+    /*height: 145px;*/
+    padding: 45px 0px 45px 0px;
+}
+
+.iplasex-footer .flexible {
+    display: flex;
+    align-items: center;
+}
+
+.iplasex-footer h3 {
+    margin-bottom: 45px;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.iplasex-footer a {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.iplasex-footer .btn {
+    width: 264px;
+    color: #fff;
+    background-color: #1b1b1b;
+    padding: 10px 0;
+    border-radius: 0;
+}
+
+.footer-links {
+    background-color: #ecedef;
+    padding: 45px;
+}
+
+.footer-links ul.flist li a {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    color: #1b1b1b;
+}
+
+.footer-links h5 {
+    color: #1b1b1b;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.footer-links ul.flist li {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.social-icons a {
+    padding: 20px 10px;
+    display: inline-block
+}
+
+.margined {
+    padding-top: 25px;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 40px;
+    height: 3px;
+    border-radius: 1px;
+    background-color: #303030;
+}
+
+.visible-mobile {
+    display: none;
+}
+
+.sin-margen {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.content-select-home {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+option {
+    color: #bf0411 !important;
+    font-weight: normal;
+    font-style: normal;
+    display: block;
+    white-space: pre;
+    font-size: 10px;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+.form-control{
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+select.form-control {
+    background: rgba(0, 0, 0, 0) url("http://iplacex.cl/wp-content/themes/iplacex/nuevo/images/flecha-blanca.png") no-repeat scroll 85% center;
+    border: 1px solid;
+    color: #fff;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 4px;
+}
+
+select#ctc_sede.form-control {
+    background: rgba(0, 0, 0, 0) url("http://iplacex.cl/wp-content/themes/iplacex/nuevo/images/flecha-blanca.png") no-repeat scroll 95% center;
+}
+
+@media (max-width: 769px) {
+    body {
+        overflow-x: hidden;
+    }
+    .call-me {
+        height: 500px;
+        background-image: url(http://www.iplacex.cl/wp-content/themes/iplacex/nuevo/images/iplasex-1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .call-me .row {
+        display: block;
+    }
+    .call-me .col-md-8 {
+        position: relative;
+        /*height: 400px;*/
+    }
+    .call-me .col-md-8::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        left: 0;
+        z-index: 0;
+    }
+    .call-me .col-md-8 > * {
+        z-index: 0;
+    }
+    .iplasex-footer .col-md-3 {
+        display: block;
+        width: inherit;
+    }
+    select.form-control {
+        background: rgba(0, 0, 0, 0) url("http://iplacex.cl/wp-content/themes/iplacex/nuevo/images/flecha-blanca.png") no-repeat scroll 95% center;
+    }
+    .form-container .col-md-4 {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .visible-mobile {
+        display: block;
+    }
+    .call-me {
+        height: inherit;
+        background: none;
+    }
+    .call-me .row {
+        display: block;
+    }
+    .call-me .col-md-8 {
+        background-image: url(http://iplacex.cl/wp-content/themes/iplacex/images/iplasex-1.png);
+        background-size: cover;
+        background-position: right;
+        background-repeat: no-repeat;
+        position: relative;
+        /*height: 400px;*/
+    }
+    .call-me .col-md-8::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        left: 0;
+        z-index: 0;
+    }
+    .call-me .col-md-8 > * {
+        z-index: 0;
+    }
+    .call-me .col-md-8 h3 {
+        font-size: 40px;
+    }
+    .form-container {
+        background: url(http://iplacex.cl/wp-content/themes/iplacex/images/llamado.png) no-repeat;
+        background-size: cover;
+        font-size: 17.49px;
+    }
+    .why h2 {
+        text-align: left;
+        font-size: 29px;
+    }
+    .why .box-why h5 {
+        position: relative;
+        padding-top: 10px;
+    }
+    .why .box-why h5::before {
+        content: '';
+        position: absolute;
+        top: -5px;
+        left: 0;
+        height: 3px;
+        width: 80px;
+        background: #1b1b1b;
+    }
+    footer h3 {
+        font-size: 29.15px;
+        color: #ffffff;
+    }
+    .panel-group .panel-heading+.panel-collapse .panel-body {
+        border-top: 0;
+    }
+    .panel {
+        margin-bottom: 15px !important;
+        border: 2px solid #fff;
+        padding: 10px;
+    }
+    .panel-title a {
+        border: 0;
+        text-align: center;
+    }
+    .iplasex-footer .address p {
+        text-align: center;
+    }
+    .iplasex-footer .flexible {
+        display: block;
+    }
+    .iplasex-footer .flexible .col-md-6 {
+        text-align: left;
+    }
+    .iplasex-footer .btn {
+        margin-top: 5px;
+        width: 100%;
+        position: relative;
+        float: left;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .footer-links {
+        padding: 70px;
+    }
+    .footer-links h5 {
+        margin-top: 25px;
+    }
+}
+/*-- seccion contenido --*/
+.contenido-padding{
+    padding: 25px 0 25px 0;
+}
+.list-group-item:first-child{
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+}
+.list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius:  0px !important;
+    border-bottom-left-radius:  0px !important;
+}
+a.list-group-item {
+    color: #1b1b1b;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #bf0411;
+}
+
+.list-group-item-active {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    color: #ffffff !important;
+    border: 1px solid #bf0411;
+    background-color: #bf0411;
+}
+.list-group-item-active:hover {
+    background-color: #bf0411 !important;
+}
+a
+.panel-default {
+    border-color: transparent;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0px !important;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+.panel-body {
+    padding: 5px 25px 25px 25px;
+}
+.panel-default>.panel-heading {
+    padding: 5px 25px 5px 25px;
+    color: transparent !important;
+    background-color: transparent !important;
+    border-color: transparent !important;       
+}
+.panel-default>.panel-heading h2{
+    font-size: 25px !important;       
+}

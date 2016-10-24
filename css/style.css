@@ -953,6 +953,10 @@ a
     font-size: 25px !important;       
 }
 
+.table-responsive {
+    font-size: 10px !important;
+}
+
 .table-responsive a {
     color: #bf0411 !important; 
 }

@@ -176,6 +176,12 @@ img.emoji {
 
 /*-- HEADER RESPONSIVE --*/
 
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 10px !important;
+}
+
 .navbar-toggle {
     position: relative;
     float: right;
@@ -348,7 +354,7 @@ earchform-r:-ms-input-placeholder {
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     a#presencial,
     a#distancia,
     #btn-aulavirtual {

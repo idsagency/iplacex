@@ -1,7 +1,6 @@
 @media(max-width:320px) {
-
     .iplasex-footer .panel-group .panel {
-    margin-bottom: 25px !important;
+        margin-bottom: 25px !important;
     }
     .panel-body {
         padding: 0px !important;
@@ -34,16 +33,15 @@
 
 @media(max-width:375px) {
     .iplasex-footer .panel-group .panel {
-    margin-bottom: 25px !important;
+        margin-bottom: 25px !important;
     }
-
     .panel-body {
         padding: 0px !important;
     }
     .panel-default>.panel-heading {
         padding: 0px !important;
     }
-    .margin-top-25  {
+    .margin-top-25 {
         margin-top: 25px !important;
     }
     header {
@@ -165,9 +163,8 @@
 
 @media(max-width:480px) {
     .iplasex-footer .panel-group .panel {
-    margin-bottom: 25px !important;
+        margin-bottom: 25px !important;
     }
-
     #nav-presencial,
     #nav-distancia {
         width: 100%;
@@ -221,7 +218,7 @@
     }
     ul#nav-perfec li a {
         float: none;
-        margin: 0 auto 15px auto;
+        margin: 0px auto 15px auto;
         padding-top: 20px;
         height: 50px;
         width: 90%;
@@ -245,6 +242,10 @@
 }
 
 @media(max-width:768px) {
+    .navbar-collapse .navbar-nav.navbar-right:last-child {
+    width: 100% !important;
+    margin-top: 25px !important;
+    }
     .call-me .form-container {
         display: none;
     }
@@ -268,6 +269,39 @@
     a#distancia,
     #btn-aulavirtual {
         width: auto !important;
+    }
+    #nav-presencial,
+    #nav-distancia {
+        width: 100%;
+    }
+    #sf-container {
+        width: 100%;
+    }
+    #searchform input {
+        width: 300px;
+    }
+    #nav-presencial ul {
+        line-height: 20px;
+    }
+    #nav-presencial ul li {
+        line-height: 30px;
+        margin-right: 36px;
+        margin-top: 6px;
+    }
+    #nav-presencial ul li:nth-child(4) {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    #nav-presencial ul li:nth-child(5) {
+        margin-left: 23px;
+        margin-top: 0;
+    }
+    #nav-presencial ul li:nth-child(6) {
+        margin-left: 3px;
+        margin-top: 0;
+    }
+    ul#servicios {
+        margin-right: 40px;
     }
     .iplasex-links #logo {
         vertical-align: middle;

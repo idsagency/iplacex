@@ -753,14 +753,14 @@ a#presencial:hover{
     }
     .call-me.releway {
     background-color: #000;
-    /*height: 500px;*/
+    height: auto;
     background-image: url(http://www.iplacex.cl/wp-content/themes/iplacex/nuevo/images/iplasex-1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left center;
     background-repeat: no-repeat;
     position: relative;
-
+    border: 0.75px #fff solid;
     }
     .box-why > div {
         width: 70%;
@@ -1416,7 +1416,7 @@ select#ctc_sede.form-control {
         overflow-x: hidden;
     }
     .footer-links {
-        padding: 70px;
+        padding: 0px;
     }
     .footer-links h5 {
         margin-top: 25px;

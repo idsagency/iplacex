@@ -1,542 +1,4 @@
-/*-- style - style 2 --*/
-
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,400,300,700,800|Open+Sans+Condensed:300,700,300italic);
-
-font-family: 'Open Sans', sans-serif;
-font-family: 'Open Sans Condensed', sans-serif;
-
-/* ESTRUCTURAS GENERALES */
-
-html,
-body {
-    height: 100%;
-}
-
-body {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-    background: #f2f2f2;
-}
-
-#page-wrapp,
-#page-wrapp-av {
-    margin: auto;
-    height: auto;
-    min-height: 100%;
-    padding-bottom: 210px;
-}
-
-#page-wrapp-av {
-    background: url(http://iplacex.cl/wp-content/themes/iplacex/img/bg-perfec-01.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-#page-wrap:after,
-#page-wrapp-av:after {
-    width: 100%;
-    height: 210px;
-    display: block;
-    clear: both;
-}
-
-.marcador {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: rgba(86, 61, 124, .15);
-    border: 1px solid rgba(86, 61, 124, .2);
-}
-
-
-/* ESTILOS DE TEXTO */
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-family: 'Open Sans', sans-serif;
-    color: #464646;
-}
-
-h1.banner,
-h1.scarrera {
-    margin-top: 50px;
-    color: #fff;
-}
-
-h1.scarrera {
-    display: block;
-    float: left;
-    width: 66.66666666666666%;
-}
-
-h5.tree {
-    margin-top: 40px;
-    font-weight: 700;
-}
-
-h1 {
-    font-weight: 300;
-}
-
-h2 {
-    font-size: 18px;
-}
-
-h3 {
-    font-size: 16px;
-}
-
-p,
-ul,
-ol {
-    color: #7d7d7d;
-}
-
-p {
-    text-align: justify;
-}
-
-ul.faq {
-    padding-left: 20px;
-    color: #fff;
-}
-
-ul.faq li {
-    margin: 10px 0;
-    font-size: 16px;
-    font-weight: 300;
-}
-
-ul.faq li a {
-    color: #fff;
-}
-
-#page-content ul li,
-#page-content ol li {
-    margin: 10px 0;
-}
-
-
-/* ESTRUCTURAS GENERALES */
-
-aside {
-    width: 25%;
-    height: auto;
-    margin-bottom: 30px;
-    overflow: hidden;
-}
-
-
-/* HEADER */
-
-header {
-    width: 100%;
-    height: 110px;
-    margin-bottom: 10px;
-}
-
-#accesos {
-    width: 100%;
-    height: 70px;
-    background: #fff;
-}
-
-a#logo {
-    display: block;
-    width: 145px;
-    height: 30px;
-    float: left;
-    margin-top: 20px;
-    background: url(http://iplacex.cl/wp-content/themes/iplacex/img/logo-iplacex-1.png);
-}
-
-a#presencial,
-a#distancia {
-    display: block;
-    width: 100px;
-    float: left;
-    margin: 0;
-    /*border-bottom: 0.75px #333 solid;*/
-    font-size: 13px;
-    font-weight: normal;
-    text-align: center;
-}
-
-a#presencial {
-    color: #ffffff  ;
-   /* margin-left: 15px;*/  
-}
-a#presencial:hover {
-    background: #e30613;
-    color: #fff !important;
-    text-decoration: none;
-}
-
-a#distancia {
-    color: #ffffff;
-    width: 100px;
-}
-
-#servicios li a:hover {
-    cursor: pointer;
-}
- 
-.pactive {
-    background-color: #1b1b1b;
-    color: #fff !important;
-    text-decoration: none;
-}
-
-a#distancia:hover,
-.dactive {
-    background: #e30613;
-    color: #fff !important;
-    text-decoration: none;
-}
-
-ul#servicios {
-    display: inline-block;
-    float: right;
-    margin-top: 20px;
-    margin-right: 10px;
-    padding: 0;
-    list-style-type: none;
-}
-
-ul#servicios li {
-    display: inline-block;
-    width: auto;
-    height: 30px;
-    padding: 0 10px;
-    border-left: 1px solid #898989;
-}
-
-ul#servicios li:first-child {
-    padding-left: 0;
-    border-left: none;
-}
-
-ul#servicios li a {
-    color: #898989;
-}
-
-#btn-avirtual {   
-    float: right;
-    /*margin-right: 10px;*/
-}
-.nomarginnopadding  {
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
-#btn-pago {
-    display: block;
-    width: 120px;
-    height: 40px;
-    float: right;
-    background: url(http://www.iplacex.cl/wp-content/themes/iplacex/img/2.png) no-repeat;
-}
-
-a#inicio {
-    display: block;
-    width: 40px;
-    height: 40px;
-    float: left;
-    color: #fff;
-    text-align: center;
-    line-height: 40px;
-}
-
-a:hover#inicio {
-    background: #464646;
-}
-
-#nav-presencial,
-#nav-distancia {
-    height: 40px;
-    padding: 0;
-}
-
-#nav-presencial {
-    background: #7d7d7d;
-}
-
-#nav-distancia {
-    background: #e30613;
-}
-
-#nav-presencial ul,
-#nav-distancia ul {
-    display: block;
-    width: 765px;
-    height: 40px;
-    float: left;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    line-height: 40px;
-}
-
-#nav-presencial ul li {
-    display: inline-block;
-    padding: 0 15px;
-    font-size: 14px;
-}
-
-#nav-distancia ul li {
-    display: inline-block;
-    padding: 0 8px;
-    font-size: 14px;
-}
-
-#nav-presencial ul li a,
-#nav-distancia ul li a {
-    color: #fff;
-}
-
-#sf-container {
-    padding: 0;
-    background: #464646;
-}
-
-#searchform {
-    float: right;
-}
-
-#searchform input {
-    width: 121px;
-    height: 40px;
-    border: none;
-    float: left;
-    padding-left: 10px;
-    background: #464646;
-    box-shadow: none;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    color: #fff;
-}
-
-#searchform::-webkit-input-placeholder {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    color: #7d7d7d;
-}
-
-#searchform:-moz-placeholder {
-    /* Firefox 18- */
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    color: #7d7d7d;
-}
-
-#searchform::-moz-placeholder {
-    /* Firefox 19+ */
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    color: #7d7d7d;
-}
-
-#searchform:-ms-input-placeholder {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    color: #7d7d7d;
-}
-
-#searchsubmit {
-    width: 40px;
-    height: 40px;
-    float: left;
-    margin: 0;
-    background: #464646;
-    border: none;
-    color: #7d7d7d;
-}
-
-img#acceso-plataformas {
-    float: right;
-    margin-top: 10px;
-}
-
-
-/* HEADER RESPONSIVE */
-
-.navbar {
-    border-radius: 0;
-}
-
-.navbar-default .navbar-brand {
-    color: #fff;
-}
-
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-    color: #5e5e5e;
-    background-color: transparent;
-}
-
-.navbar-default {
-    background-color: #7d7d7d;
-    border: 0px;
-    border-color: transparent;
-}
-
-.navbar-presencial {
-    background-color: #7d7d7d;
-}
-
-.navbar-distancia {
-    background-color: #e30613;
-}
-
-.navbar-default .navbar-text {
-    color: #777777;
-}
-
-.navbar-default .navbar-nav > li > a {
-    color: #fff;
-}
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    color: #333333;
-    background-color: transparent;
-}
-
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-    color: #555555;
-    background-color: #e7e7e7;
-}
-
-.navbar-collapse {
-    max-height: 340px;
-    padding-right: 0px;
-    padding-left: 0px;
-    overflow-x: visible;
-    border-top: none;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-    -webkit-overflow-scrolling: touch;
-}
-
-.navbar-brand {
-    float: left;
-    padding: 12px 12px;
-    font-size: 18px;
-    line-height: 20px;
-}
-
-.navbar-brand:hover,
-.navbar-brand:focus {
-    text-decoration: none;
-}
-
-@media (min-width: 768px) {
-    .navbar > .container .navbar-brand {
-        margin-left: -15px;
-    }
-}
-
-#sf-container-r {
-    padding: 0;
-    background: #464646;
-}
-
-#searchform-r {
-    float: right;
-}
-
-#searchform-r input {
-    width: 121px;
-    height: auto!important;
-    border: none;
-    float: left;
-    padding-top: 17px;
-    padding-bottom: 16px;
-    padding-left: 10px;
-    background: #464646;
-    box-shadow: none;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    color: #fff;
-}
-
-#searchform-r::-webkit-input-placeholder {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    color: #7d7d7d;
-}
-
-#searchform-r:-moz-placeholder {
-    /* Firefox 18- */
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    color: #7d7d7d;
-}
-
-#searchform-r::-moz-placeholder {
-    /* Firefox 19+ */
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    color: #7d7d7d;
-}
-
-#searchform-r:-ms-input-placeholder {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    color: #7d7d7d;
-}
-
-#searchsubmit-r {
-    width: 40px;
-    height: auto!important;
-    float: left;
-    margin: 0;
-    padding-top: 17px;
-    padding-bottom: 16px;
-    background: #464646;
-    border: none;
-    color: #7d7d7d;
-}
-
-@media (min-width: 768px) {
-    #searchform-r {
-        right: 0;
-        left: auto;
-        float: right !important;
-    }
-}
-
-.navbar-form {
-    padding: 0;
-    margin: 0;
-    border-top: transparent;
-    border-bottom: transparent;
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-}
-
-@media (max-width: 992px) {
-    a#presencial,
-    a#distancia,
-    #btn-aulavirtual {
-        display: none;
-    }
-}
-
-
-/* HOME */
+/*-- HOME --*/
 
 #slider {
     width: 727px;
@@ -558,11 +20,6 @@ a.programas {
 a.programas:hover {
     text-decoration: none;
 }
-
-
-/*a.presenciales {
-  background: url(http://iplacex.cl/wp-content/themes/iplacex/img/bg-a-presenciales.jpg) no-repeat;
-}*/
 
 a.presenciales {
     background: url(http://iplacex.cl/wp-content/themes/iplacex/img/bg-a-presenciales2.png) no-repeat;
@@ -707,7 +164,7 @@ a.pro {
 }
 
 
-/* FORMULARIO ADMISIÃ“N y CTC */
+/*-- FORMULARIO ADMISION y CTC --*/
 
 #form-admision,
 #form-ctcall {
@@ -804,9 +261,7 @@ a.pro {
 }
 
 
-/* INSTITUCIÃ“N */
-
-#autoridades {}
+/*-- INSTITUCION --*/
 
 .autoridad {
     width: 100%;
@@ -841,7 +296,6 @@ a.pro {
     height: 50px;
     margin-bottom: 5px;
     background: #fff;
-    /*line-height: 50px;*/
     padding: 15px;
 }
 
@@ -855,7 +309,7 @@ a.pro {
 }
 
 
-/* ADMISIÃ“N */
+/*-- ADMISION --*/
 
 #nav-admision {
     width: 100%;
@@ -915,29 +369,18 @@ span.escuelade {
 #slider-admision {
     width: 970px;
     height: 300px;
-    /*background: url(http://iplacex.cl/wp-content/themes/iplacex/img/slider-admision.jpg);*/
 }
 
 figure.malla-jpg {
     width: 100%;
-    /*height: 557px;*/
     margin-bottom: 20px;
     overflow: hidden;
-}
-
-figure.malla-jpg img {
-    /*margin-top: -70px;*/
 }
 
 figure.malla-ced-jpg {
     width: 100%;
-    /*height: 620px;*/
     margin-bottom: 20px;
     overflow: hidden;
-}
-
-figure.malla-ced-jpg img {
-    /*margin-top: -140px;*/
 }
 
 .decargar-malla {
@@ -945,78 +388,7 @@ figure.malla-ced-jpg img {
 }
 
 
-/* CARRERAS */
-
-table.carreras {
-    width: 100%;
-    margin-bottom: 80px;
-}
-
-table.carreras th.th-carreras {
-    padding: 10px;
-    border-bottom: 2px solid #fff;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 300;
-}
-
-table.carreras th.th-eadm {
-    background: #80726c;
-}
-
-table.carreras th.th-esal {
-    background: #0084b7;
-}
-
-table.carreras th.th-econ {
-    background: #d52843;
-}
-
-table.carreras th.th-eedu {
-    background: #f8a81f;
-}
-
-table.carreras th.th-einf {
-    background: #2e2a6f;
-}
-
-table.carreras th.th-etur {
-    background: #87bc40;
-}
-
-table.carreras th.th-ecss {
-    background: #318a42;
-}
-
-table.carreras td.nivel {
-    padding: 10px;
-    background: #a7a7a7;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 300;
-}
-
-table.carreras td {
-    padding: 10px;
-    border-bottom: 1px solid #d7d7d7;
-}
-
-
-/* SINGLE CARRERAS */
-
-#banner-carrera-wrapp {
-    width: 100%;
-    min-height: 180px;
-    margin-top: -50px;
-    margin-bottom: 15px;
-    background: #9a9792;
-}
-
-#banner-carrera {
-    width: 970px;
-    min-height: 180px;
-    background: url(http://iplacex.cl/wp-content/themes/iplacex/img/banner-single-presencial.jpg);
-}
+/*-- CARRERAS --*/
 
 a#modal-ctcall {
     display: block;
@@ -1043,7 +415,7 @@ a#modal-ctcall:hover {
 }
 
 
-/* SEDES */
+/*-- SEDES --*/
 
 #banner-sedes {
     width: 100%;
@@ -1143,7 +515,7 @@ table.arancel td.td-footer-arancel {
 }
 
 
-/* ALUMNOS */
+/*-- ALUMNOS --*/
 
 #banner-alumnos {
     width: 100%;
@@ -1188,7 +560,7 @@ a.halumnos h4 {
 }
 
 
-/* NOTICIAS */
+/*-- NOTICIAS --*/
 
 #news-list {
     width: 100%;
@@ -1236,7 +608,7 @@ a.halumnos h4 {
 }
 
 
-/* INTERIOR */
+/*-- INTERIOR --*/
 
 #page-content {
     margin-bottom: 30px;
@@ -1293,7 +665,7 @@ a.halumnos h4 {
 }
 
 
-/* PAGO ARANCEL */
+/*-- PAGO ARANCEL --*/
 
 #pago-title-wrapp {
     width: 100%;
@@ -1336,7 +708,7 @@ a.cupon {
 }
 
 
-/* CED */
+/*-- CED --*/
 
 #banner-alumnos-ced {
     width: 100%;
@@ -1411,100 +783,14 @@ a.cupon {
 }
 
 
-/* SOCIAL */
+/*-- SOCIAL --*/
 
 .fb_iframe_widget {
     margin-top: 20px;
 }
 
 
-/* PERFECCIONAMIENTO */
-
-#banner-perfec {
-    width: 100%;
-    min-height: 350px;
-    margin-top: -50px;
-    margin-bottom: 40px;
-    padding-top: 50px;
-    background: url(http://iplacex.cl/wp-content/themes/iplacex/img/bg-perfec-01.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-#banner-perfec h1 {
-    color: #fff;
-}
-
-ul#nav-perfec {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul#nav-perfec li a {
-    display: block;
-    width: 16.666666666666664%;
-    height: 160px;
-    float: left;
-    margin-left: 1px;
-    background: rgba(255, 255, 255, 0.8);
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    color: #898989;
-    text-align: center;
-    line-height: 160px;
-}
-
-ul#nav-perfec li:last-child a {
-    line-height: 20px;
-    padding-top: 60px;
-}
-
-ul#nav-perfec li a:hover {
-    text-decoration: none;
-    color: #fff;
-    background: #e30613;
-}
-
-ul.cursos-list {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul.cursos-list li {
-    margin-bottom: 10px;
-}
-
-.header-cursos {
-    height: 100px;
-    background: url(http://iplacex.cl/wp-content/themes/iplacex/img/header-cursos.jpg) no-repeat;
-}
-
-.header-cursos h2 {
-    color: #fff;
-    font-weight: 300;
-}
-
-#nav-sngl-perfec {
-    padding-top: 30px;
-}
-
-#nav-sngl-perfec .menu-perfeccionamiento-container {
-    float: right;
-}
-
-h3.adm-cal {
-    display: block;
-    margin-top: 30px;
-    margin-bottom: 0;
-    padding: 10px;
-    background: #f4f4f4;
-}
-
-
-/* AULA VIRTUAL */
+/*-- AULA VIRTUAL --*/
 
 h1.pag-acceso {
     margin-top: 15px;
@@ -1533,7 +819,7 @@ h2.titulo-acceso span {
 }
 
 
-/* CONSULTAS MATRÃCULA */
+/*-- CONSULTAS MATRÃCULA --*/
 
 #form-matricula {
     margin: 40px 0;
@@ -1544,7 +830,7 @@ h2.titulo-acceso span {
 }
 
 
-/* FOOTER */
+/*-- FOOTER --*/
 
 footer {
     width: 100%;
@@ -1630,7 +916,7 @@ a#flogo {
 }
 
 
-/* ADMISIÃ“N 2Âº SEMESTRE */
+/* ADMISION 2 SEMESTRE */
 
 #adm2sem {
     width: 100%;
@@ -1677,7 +963,7 @@ a#flogo {
 }
 
 
-/* SUBDERE */
+/*-- SUBDERE --*/
 
 #slider-subdere-wrapp {
     margin-top: -50px;

@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width">
+    <title>Iplacex</title>
+    <!-- fav -->
+    <link href="http://www.iplacex.cl/wp-content/themes/iplacex/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <!-- bootstrap.min.css -->
+    <link rel="stylesheet" href="http://www.iplacex.cl/wp-content/themes/iplacex/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css" integrity="sha384-Wrgq82RsEean5tP3NK3zWAemiNEXofJsTwTyHmNb/iL3dP/sZJ4+7sOld1uqYJtE" crossorigin="anonymous">
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- style_2.css -->
+    <link rel="stylesheet" href="css/style2.css">
+    <!-- slicknav.css -->
+    <link rel="stylesheet" href="dist/slicknav.css">
+    <!-- responsive.css -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- jquery ui css -->
+    <link rel="stylesheet" href="http://www.iplacex.cl/wp-content/themes/iplacex/css/jquery-ui.min.css">
+
+    <!-- modernizr.min.js -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+</head>
+
+<body>
+    <!-- menu -->
+    <ul id="menu">
+        <li>Parent 1
+            <ul>
+                <li><a href="#">item 3</a></li>
+                <li>Parent 3
+                    <ul>
+                        <li><a href="#">item 8</a></li>
+                        <li><a href="#">item 9</a></li>
+                        <li><a href="#">item 10</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">item 4</a></li>
+            </ul>
+        </li>
+        <li><a href="#">item 1</a></li>
+        <li>non-link item</li>
+        <li>Parent 2
+            <ul>
+                <li><a href="#">item 5</a></li>
+                <li><a href="#">item 6</a></li>
+                <li><a href="#">item 7</a></li>
+            </ul>
+        </li>
+    </ul>
+    <!-- menu -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="dist/jquery.slicknav.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#menu').slicknav();
+    });
+    </script>
+</body>
+
+</html>

@@ -1,5 +1,8 @@
 /*-- STYLE --*/
-
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
 /*-- FONT STYLE --*/
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,400,300,700,800|Open+Sans+Condensed:300,700,300italic);
@@ -829,12 +832,16 @@ header.iplasex-header {
 
 .iplasex-links .menu-item > a {
     color: #1b1b1b;
-    font-size: 13px;
+    font-size: 10px;
     text-transform: uppercase;
     font-weight: normal;
     font-style: normal;
     position: relative;
+    padding-top: 12px !important;   
     margin-bottom: 5px;
+}
+.navbar-collapse .navbar-nav.navbar-right:last-child {
+    margin-right: 15px !important;
 }
 
 .iplasex-links .menu-item > a:hover,
@@ -847,8 +854,8 @@ header.iplasex-header {
     position: absolute;
     width: 0;
     height: 3px;
-    background-color: #b8b9be;
-    bottom: 12px;
+    background-color: #bf0411;
+    bottom: 9px;
     left: 15px;
     transition: .4s;
 }
@@ -1478,6 +1485,7 @@ a.list-group-item {
     margin-bottom: -1px;
     background-color: #fff;
     border: 1px solid #bf0411;
+    text-transform: uppercase !important;
 }
 
 .list-group-item-active {
@@ -1524,4 +1532,19 @@ a
 
 .table-responsive a {
     color: #bf0411 !important; 
+}
+.breadcrumb {
+    padding: 8px 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f2f2f2;
+    border-radius: 0 !important;
+}
+.breadcrumb li {
+   font-size: 10px;
+}
+.breadcrumb a {
+   font-size: 10px;
+   color: #bf0411 !important;
 }

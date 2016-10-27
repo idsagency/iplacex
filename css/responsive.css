@@ -1,3 +1,18 @@
+/*-- MENU --*/
+.slicknav_menu {
+    display:none;
+}
+
+@media screen and (max-width: 40em) {
+    .js #menu {
+        display:none;
+    }
+    
+    .js .slicknav_menu {
+        display:block;
+    }
+}
+
 @media(max-width:320px) {
 
     .iplasex-footer .panel-group .panel {
@@ -306,16 +321,6 @@
 }
 
 @media(max-width:768px) {
-
-    a#logo {
-    display: block;
-    width: 145px;
-    height: 30px;
-    float: left;
-    margin-top: 20px;
-    background: url(http://iplacex.cl/wp-content/themes/iplacex/img/logo-iplacex-1.png) top left;
-    background-size: 90%;
-}
 
     .iplasex-footer .address p {
     text-align: center;
@@ -660,7 +665,7 @@
         padding: 25px 0px 25px 0px;
     }
 
-    .helper2 .helper2-row {
+   /* .helper2 .helper2-row {
     width: auto !important;
     padding-left: 8px !important;
     padding-right: 8px !important;
@@ -678,7 +683,7 @@
     float: left;
     text-transform: uppercase;
     color:  #bf0411 !important;
-}
+}*/
 .iplasex-links .menu-item > a   {
     font-size: 10px !important;
 }

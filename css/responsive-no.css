@@ -1,0 +1,593 @@
+    @media(max-width:320px) {
+    .iplasex-footer .panel-group .panel {
+        margin-bottom: 25px !important;
+    }
+    .panel-body {
+        padding: 0px !important;
+    }
+    #searchform input {
+        width: 280px;
+    }
+    a#presencial {
+        margin-left: 4px;
+    }
+    a#presencial,
+    a#distancia,
+    #btn-aulavirtual {
+        font-size: 12px;
+        width: 71px;
+    }
+    h1.scarrera {
+        width: 320px;
+    }
+    ul#servicios {
+        margin-right: 24px;
+    }
+    #slider-adm-wrapp.page-admision {
+        margin-top: 0px;
+    }
+    .container.container-clicktocall {
+        margin-top: 190px;
+    }
+}
+
+@media(max-width:375px) {
+    .panel-default>.panel-heading h2 {
+        font-size: 20px !important;
+    }
+    .iplasex-footer .panel-group .panel {
+        margin-bottom: 25px !important;
+    }
+    .panel-body {
+        padding: 0px !important;
+    }
+    .panel-default>.panel-heading {
+        padding: 0px !important;
+    }
+    .margin-top-25 {
+        margin-top: 25px !important;
+    }
+    header {
+        height: 177px;
+    }
+    #nav-presencial,
+    #nav-distancia {
+        width: 100%;
+    }
+    #sf-container {
+        width: 100%;
+    }
+    #searchform input {
+        width: 300px;
+    }
+    #nav-presencial ul {
+        line-height: 20px;
+    }
+    #nav-presencial ul li {
+        line-height: 30px;
+        margin-right: 36px;
+        margin-top: 6px;
+    }
+    #nav-presencial ul li:nth-child(4) {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    #nav-presencial ul li:nth-child(5) {
+        margin-left: 23px;
+        margin-top: 0;
+    }
+    #nav-presencial ul li:nth-child(6) {
+        margin-left: 3px;
+        margin-top: 0;
+    }
+    ul#servicios {
+        margin-right: 40px;
+    }
+    a.programas {
+        width: 100%;
+        background-position: center top;
+        background-size: 100%;
+    }
+    #postit {
+        background: none;
+        background-color: #f72d3b;
+        width: 100%;
+    }
+    #noticias-wrapp .col-xs-3 {
+        width: 100%;
+    }
+    .imgcrop-1 img,
+    .imgcrop-2 img {
+        display: block;
+        height: auto;
+        max-width: 100%;
+        width: 100%;
+    }
+    .menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-1223 {
+        margin-left: 17px;
+    }
+    .director {
+        line-height: 14px;
+        font-size: 10px;
+    }
+    .director .col-md-5 {
+        width: 35%;
+    }
+    .director .col-md-4 {
+        padding: 0;
+    }
+    .director .col-md-4 a .fa {
+        display: none;
+    }
+    .col-md-3.cont-noticia {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    h1.carrera {
+        padding-left: 10px;
+    }
+    ul#nav-perfec li a {
+        float: none;
+        margin: 0 auto 15px auto;
+        padding-top: 20px;
+        height: 50px;
+        width: 90%;
+        line-height: 18px;
+    }
+    ul#nav-perfec li:last-child a {
+        padding-top: 20px;
+    }
+    #banner-carrera-wrapp {
+        margin-top: 0;
+    }
+    h1.scarrera {
+        width: 360px;
+    }
+    ul#servicios {
+        width: auto;
+    }
+    #slider-adm-wrapp.page-admision {
+        margin-top: 13px;
+    }
+    #banner-sedes {
+        margin-top: 0px;
+    }
+    .container.page-carrera-ced {
+        margin-top: 0;
+    }
+    #banner-perfec,
+    #banner-alumnos-ced {
+        margin-top: 0;
+    }
+    .container.container-clicktocall {
+        margin-top: 190px;
+    }
+}
+
+@media(max-width:480px) {
+    .iplasex-footer .panel-group .panel {
+        margin-bottom: 25px !important;
+    }
+    #nav-presencial,
+    #nav-distancia {
+        width: 100%;
+    }
+    #nav-presencial ul li,
+    #nav-distancia ul li {
+        margin-right: 20px;
+    }
+    #sf-container {
+        width: 100%;
+    }
+    #postit {
+        background: none;
+        background-color: #f72d3b;
+        width: 100%;
+    }
+    a.programas {
+        width: 100%;
+        background-position: center top;
+        background-size: 100%;
+    }
+    ul#servicios {
+        display: none;
+    }
+    #slider-adm-wrapp.page-admision {
+        margin-top: 29px;
+    }
+    #banner-carrera-wrapp {
+        margin-top: 92px;
+    }
+    #banner-sedes {
+        margin-top: 29px;
+    }
+    header {
+        height: 151px;
+    }
+    footer .col-xs-2 {
+        width: 100%;
+    }
+    footer .col-xs-2 .flist li {
+        text-align: center;
+    }
+    footer h5 {
+        text-align: center;
+    }
+    a#flogo {
+        margin: 10px auto;
+    }
+    .container.page-carrera-ced {
+        margin-top: 70px;
+    }
+    ul#nav-perfec li a {
+        float: none;
+        margin: 0px auto 15px auto;
+        padding-top: 20px;
+        height: 50px;
+        width: 90%;
+        line-height: 18px;
+    }
+    ul#nav-perfec li:last-child a {
+        padding-top: 20px;
+    }
+    #banner-perfec,
+    #banner-alumnos-ced {
+        margin-top: 70px;
+    }
+    p.ipla {
+        margin: 20px auto 0 auto;
+        text-align: center;
+        width: 190px;
+    }
+    .container.container-clicktocall {
+        margin-top: 190px;
+    }
+}
+
+@media(min-width:768px) {
+    .iplasex-footer .address p {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 300;
+        margin: 0;
+        line-height: 23px;
+        color: #ffffff;
+    }
+    .navbar-collapse .navbar-nav.navbar-right:last-child {
+        width: 100% !important;
+        margin-top: 13px !important;
+    }
+    .call-me .form-container {
+        display: none !important;
+    }
+    .container {
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .modes {
+        background-color: #fff;
+        padding: 25px 0;
+    }
+    .navbar-toggle {
+        margin-right: 0;
+    }
+    .navbar-nav {
+        margin: 0 !important;
+    }
+    a#presencial,
+    a#distancia,
+    #btn-aulavirtual {
+        width: auto !important;
+    }
+    #nav-presencial,
+    #nav-distancia {
+        width: 100%;
+    }
+    #sf-container {
+        width: 100%;
+    }
+    #searchform input {
+        width: 300px;
+    }
+    #nav-presencial ul {
+        line-height: 20px;
+    }
+    #nav-presencial ul li {
+        line-height: 30px;
+        margin-right: 36px;
+        margin-top: 6px;
+    }
+    #nav-presencial ul li:nth-child(4) {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    #nav-presencial ul li:nth-child(5) {
+        margin-left: 23px;
+        margin-top: 0;
+    }
+    #nav-presencial ul li:nth-child(6) {
+        margin-left: 3px;
+        margin-top: 0;
+    }
+    ul#servicios {
+        margin-right: 40px;
+    }
+    .iplasex-links #logo {
+        vertical-align: middle;
+        margin-top: 15px;
+    }
+    .row {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    header {
+        height: 122px;
+    }
+    .row-white #nav-presencial,
+    #nav-distancia {
+        width: 100%;
+        height: auto;
+    }
+    #sf-container {
+        display: inline-block;
+        vertical-align: top;
+        width: 220px;
+    }
+    #nav-presencial ul,
+    #nav-distancia ul {
+        float: none;
+        width: auto;
+        height: auto;
+    }
+    #nav-presencial ul li,
+    #nav-distancia ul li {
+        font-size: 12px;
+        padding: 0;
+        margin-right: 30px;
+    }
+    #form-admision,
+    #form-ctcall {
+        width: 100%;
+    }
+    #postit {
+        width: 187px;
+        background-position: right top;
+        text-align: center;
+    }
+    #postit a {
+        font-size: 35px;
+    }
+    .col-md-3 {
+        display: inline-block;
+        width: 24%;
+    }
+    a#presencial,
+    a#distancia,
+    #btn-aulavirtual {
+        display: block;
+        width: 88px;
+    }
+    a#presencial {
+        margin-left: 12px;
+    }
+    #btn-pago {
+        display: none;
+    }
+    #nav-distancia ul li {
+        margin-right: 12px;
+    }
+    .btn-interior {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .director .col-md-5 {
+        display: inline-block;
+        width: 41.66666667%;
+    }
+    .director .col-md-4 {
+        display: inline-block;
+        width: 33.33333333%;
+    }
+    #postit.page-carreras,
+    #postit.page-admision,
+    #postit.page-sedes {
+        background: none;
+        background-color: #f72d3b;
+        width: 100%;
+        margin: 10px 0;
+    }
+    .col-md-4.lhalumnos {
+        margin-bottom: 60px;
+    }
+    #row-halumnos {
+        height: auto;
+    }
+    #banner-alumnos {
+        margin-top: 0;
+    }
+    .col-md-3.sedes,
+    .col-md-3.alumnos,
+    .col-md-3.reclamos {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .col-md-3.noticia {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    aside.aside,
+    a#modal-ctcall {
+        width: 100%;
+    }
+    a#modal-ctcall {
+        text-align: center;
+    }
+    a#modal-ctcall figure {
+        float: none;
+    }
+    #banner-perfec,
+    #banner-alumnos-ced {
+        margin-top: 0;
+    }
+    .col-md-3.cursos {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .col-md-3.cont-noticia {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #slider-adm-wrapp.page-admision {
+        margin-top: -61px;
+    }
+    aside.page-admision,
+    aside.page-carreras,
+    aside.page-carrera-ced {
+        width: 100%;
+    }
+    #banner-carrera-wrapp {
+        margin-top: -21px;
+    }
+    h1.scarrera {
+        margin-top: 15px;
+    }
+    #banner-sedes {
+        margin-top: 0;
+    }
+    .call-me h3 {
+        font-size: 35px !important;
+        max-width: none;
+        color: #fff;
+        line-height: 110%;
+        text-transform: uppercase;
+        padding: 10px 15px 20px 0;
+    }
+    .why h2 {
+        font-size: 22px;
+        text-align: left;
+        margin: 0;
+        line-height: 110%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+    }
+    .dream h2 {
+        font-size: 22px;
+        text-transform: uppercase;
+        text-align: left;
+        margin: 0;
+        line-height: 110%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+    }
+    .iplasex-footer h3 {
+        font-size: 22px;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0;
+        line-height: 110%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+        color: #ffffff;
+    }
+    .panel-title a {
+        width: 100%;
+        float: left;
+        height: 60px !important;
+        border: 0;
+        margin-bottom: 20px !important;
+        display: inline-block;
+        padding: 15px 0 !important;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 15px;
+        position: relative;
+        color: #ffffff;
+        text-align: center;
+    }
+    .panel-title a::before {
+        top: 35px !important;
+        left: 0;
+        content: "\f078";
+        font-family: FontAwesome;
+        color: #ffffff !important;
+        font-size: 13px;
+        position: absolute;
+        z-index: 999;
+        transition: .3s;
+        transform: rotate(0deg);
+    }
+    .panel-title a:not(.collapsed)::before {
+        transform: rotate(-180deg);
+    }
+    .iplasex-footer .reclamos {
+        background: url(http://www.iplacex.cl/wp-content/themes/iplacex/nuevo/images/reclamos.png) no-repeat;
+        background-size: cover;
+        margin-top: 25px;
+        padding: 25px 0px 25px 0px;
+    }
+    .helper2 .helper2-row {
+        width: auto !important;
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+        margin-top: 5px;
+        float: left !important;
+        display: block !important;
+    }
+    .helper2 .helper2-row a {
+        width: auto !important;
+        padding-top: 17px !important;
+        ;
+        text-align: center !important;
+        ;
+        font-size: 10px !important;
+        font-weight: bold;
+        border-bottom: 1px white solid;
+        float: left;
+        text-transform: uppercase;
+        color: #bf0411 !important;
+    }
+    .iplasex-links .menu-item > a {
+        margin: 0 !important;
+        padding: 0px 8px 8px 8px !important;
+        color: #1b1b1b;
+        font-size: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-style: normal;
+        position: relative;
+    }
+    /*--*/
+    .navbar-nav>li {
+        width: auto;
+        text-align: left;
+        float: left;
+    }
+    .navbar-collapse .navbar-nav.navbar-right:last-child {
+        margin-right: 0px;
+        /*--*/
+        .iplasex-links .menu-item > a {
+            font-size: 10px !important;
+        }
+        .call-me h3 {
+            padding: 0 !important;
+            margin: 15px 0px 15px 0px;
+        }
+        .call-me h4 {
+            font-size: 15px;
+            font-style: normal;
+            text-transform: uppercase;
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+    }
+    @media (max-width: 2560px) {
+        .container.container-clicktocall {
+            height: 600px;
+            margin-top: 20px;
+        }
+    }

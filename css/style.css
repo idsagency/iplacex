@@ -4,9 +4,6 @@ a:hover, a:visited, a:link, a:active
     text-decoration: none;
 }
 /*-- FONT STYLE --*/
-
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,400,300,700,800|Open+Sans+Condensed:300,700,300italic);
-
 h1,
 h2,
 h3,
@@ -80,7 +77,7 @@ ul.faq li a {
 
 html {
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 12px;
     font-weight: normal;
     font-style: normal;
     height: 100%;
@@ -91,9 +88,7 @@ html {
 body {
     height: 100%;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-    background: #f2f2f2;
+    background-color: #f2f2f2;
 }
 
 .no-margin {
@@ -182,7 +177,7 @@ img.emoji {
 .nav>li>a {
     position: relative;
     display: block;
-    padding: 10px 10px !important;
+    padding: 10px 10px;
 }
 
 .navbar-toggle {
@@ -367,7 +362,7 @@ earchform-r:-ms-input-placeholder {
 
 .nuevo-header {
     height: 42px;
-    background: #bf0411;
+    background-color: #bf0411;
 }
 
 a#presencial,
@@ -692,7 +687,7 @@ a#presencial:hover{
     width: 100%;
     left: 0;
     top: 0;
-    z-index: 100;
+    z-index: 999999;
     border-top: 0;
 }
 
@@ -818,7 +813,6 @@ a#presencial:hover{
 header.iplasex-header {
     background-color: #ffffff;
     height: auto;
-    /*border-bottom: 3px solid #bf0411;*/
     margin: 0;
 }
 
@@ -841,7 +835,7 @@ header.iplasex-header {
     margin-bottom: 5px;
 }
 .navbar-collapse .navbar-nav.navbar-right:last-child {
-    margin-right: 15px !important;
+    margin-right: 15px;
 }
 
 .iplasex-links .menu-item > a:hover,
@@ -1445,10 +1439,10 @@ select#ctc_sede.form-control {
         text-align: left;
     }
     .iplasex-footer .btn {
-        margin-top: 5px;
-        width: 100%;
-        position: relative;
         float: left;
+        margin-top: 5px;
+        position: relative;
+        width: 100%;
     }
     body {
         overflow-x: hidden;
@@ -1464,38 +1458,38 @@ select#ctc_sede.form-control {
 /*-- seccion contenido --*/
 
 .contenido-padding{
-    padding: 25px 0 25px 0;
+    padding: 25px 0 25px 0 !important;
 }
 .list-group-item:first-child{
     border-top-right-radius: 0px !important;
     border-top-left-radius: 0px !important;
 }
 .list-group-item:last-child {
-    margin-bottom: 0;
-    border-bottom-right-radius:  0px !important;
     border-bottom-left-radius:  0px !important;
+    border-bottom-right-radius:  0px !important;
+    margin-bottom: 0;
 }
 a.list-group-item {
     color: #1b1b1b;
 }
 .list-group-item {
-    position: relative;
-    display: block;
-    padding: 10px 15px;
-    margin-bottom: -1px;
     background-color: #fff;
     border: 1px solid #bf0411;
+    display: block;
+    margin-bottom: -1px;
+    padding: 10px 15px;
+    position: relative;
     text-transform: uppercase !important;
 }
 
 .list-group-item-active {
-    position: relative;
-    display: block;
-    padding: 10px 15px;
-    margin-bottom: -1px;
-    color: #ffffff !important;
-    border: 1px solid #bf0411;
     background-color: #bf0411;
+    border: 1px solid #bf0411;
+    color: #ffffff !important;
+    display: block;
+    margin-bottom: -1px;
+    padding: 10px 15px;
+    position: relative;
 }
 .list-group-item-active:hover {
     background-color: #bf0411 !important;
@@ -1517,10 +1511,10 @@ a
     padding: 5px 25px 25px 25px;
 }
 .panel-default>.panel-heading {
-    padding: 5px 25px 5px 25px;
-    color: transparent !important;
     background-color: transparent !important;
     border-color: transparent !important;       
+    color: transparent !important;
+    padding: 5px 25px 5px 25px;
 }
 .panel-default>.panel-heading h2{
     font-size: 25px !important;       
@@ -1534,17 +1528,17 @@ a
     color: #bf0411 !important; 
 }
 .breadcrumb {
-    padding: 8px 15px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    list-style: none;
     background-color: #f2f2f2;
     border-radius: 0 !important;
+    list-style: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 8px 15px;
 }
 .breadcrumb li {
    font-size: 10px;
 }
 .breadcrumb a {
-   font-size: 10px;
    color: #bf0411 !important;
+   font-size: 10px;
 }

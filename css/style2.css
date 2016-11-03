@@ -1,5 +1,4 @@
 /*-- HOME --*/
-
 #slider {
     width: 727px;
     height: 360px;
@@ -1238,28 +1237,33 @@ screen and (min-width:0\0) {
     color: #595959;
 }
 
+
 /*-- ESTILO DE CARRERAS --*/
+
 .btn-block {
     color: #ffffff;
-    background-color:#bf0411; 
+    background-color: #bf0411;
     display: block;
     width: 100%;
     padding-right: 0;
     padding-left: 0;
-    border-radius: 0 !important;  
-    transition: all 3s; 
-    text-decoration: none;
-}
-.btn-block a{
-    text-decoration: none !important;
-    text-underline-position: none;
-}
-.btn-block:hover {
-    color: #bf0411;
-    background-color:#ffffff;
+    border-radius: 0 !important;
     transition: all 3s;
     text-decoration: none;
 }
+
+.btn-block a {
+    text-decoration: none !important;
+    text-underline-position: none;
+}
+
+.btn-block:hover {
+    color: #bf0411;
+    background-color: #ffffff;
+    transition: all 3s;
+    text-decoration: none;
+}
+
 .btn-block::before {
     content: "\f1c1";
     font-family: FontAwesome;

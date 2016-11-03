@@ -1,3 +1,5 @@
+/*-- OPEN SANS --*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 /*-- STYLE --*/
 a:hover, a:visited, a:link, a:active
 {
@@ -49,22 +51,38 @@ ol {
 }
 
 p {
-    text-align: justify;
+    font-size: 12px !important;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 180%;
+    text-align: left;
 }
 
-ul.faq {
-    padding-left: 20px;
-    color: #fff;
+ul {
 }
 
-ul.faq li {
-    margin: 10px 0;
-    font-size: 16px;
-    font-weight: 300;
+ul li {
+    font-size: 12px !important;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 180%;
+    text-align: left;
 }
 
-ul.faq li a {
-    color: #fff;
+.bala-left::before {
+    color: #bf0411;
+    content: "\f10c";
+    font-family: FontAwesome;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    left: 0;
+    z-index: 999;
+   margin-right: 7px;
+}
+
+ul li a {
+    color: #bf0411;
 }
 
 #page-content ul li,
@@ -88,7 +106,7 @@ html {
 body {
     height: 100%;
     margin: 0;
-    background-color: #f2f2f2;
+    background-color: #f1f1f1;
 }
 
 .no-margin {
@@ -522,7 +540,7 @@ img#acceso-plataformas {
     height: 30px;
     width: 100px;
     margin-top: 6px;
-    font-family: Raleway;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
 }
@@ -666,14 +684,24 @@ a#presencial:hover{
 }
 
 .nuevo-header .col-md-8 .col-md-2 {
-    padding: 12px 10px;
+    padding: 9px 10px;
 }
 
 .nuevo-header .col-md-5,
 .nuevo-header .col-md-7 {
     padding: 0;
 }
-
+.aula-virtual::before{
+    color: #ffffff;
+    content: "\f19d";
+    font-family: FontAwesome;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    left: 0;
+    z-index: 999;
+   margin-right: 7px;
+}
 .container-fluid.iplasex-links {
     padding-top: 0px;
 }
@@ -715,7 +743,7 @@ a#presencial:hover{
 .notificate h4 {
     text-align: center;
     color: #ffffff;
-    font-family: Raleway;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 18px;
     font-weight: bold;
     margin-top: 35px;
@@ -807,7 +835,7 @@ a#presencial:hover{
 }
 
 .releway {
-    font-family: 'Raleway', sans-serif;
+     font-family: 'Open Sans', sans-serif;
 }
 
 header.iplasex-header {
@@ -926,7 +954,7 @@ header.iplasex-header {
 }
 
 .call-me .form-container h2 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     text-transform: uppercase;
     color: #ffffff;
@@ -979,7 +1007,7 @@ header.iplasex-header {
 .modes .info-box {
     padding-right: 45px;
     background-color: #fff;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .modes .info-box h3 {
@@ -1002,7 +1030,7 @@ header.iplasex-header {
 
 .why {
     padding: 35px 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .why h2 {
@@ -1096,7 +1124,7 @@ margin-bottom: 50px;
 .iplasex-footer {
     margin: 0;
     background-color: #1b1b1b;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     padding-bottom: 0;
 }
 
@@ -1527,7 +1555,8 @@ a
 .table-responsive a {
     color: #bf0411 !important; 
 }
-.breadcrumb {
+    .breadcrumb {
+
     background-color: #f2f2f2;
     border-radius: 0 !important;
     list-style: none;
@@ -1536,9 +1565,9 @@ a
     padding: 8px 15px;
 }
 .breadcrumb li {
-   font-size: 10px;
+   font-size: 9px !important;
 }
 .breadcrumb a {
    color: #bf0411 !important;
-   font-size: 10px;
+   font-size: 9px !important;
 }

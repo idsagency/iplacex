@@ -1,4 +1,9 @@
 /*-- HOME --*/
+.container-home {
+    padding: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
 #slider {
     width: 727px;
     height: 360px;

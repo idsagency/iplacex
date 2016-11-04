@@ -187,36 +187,6 @@
     header {
         height: 177px;
     }
-    #nav-presencial,
-    #nav-distancia {
-        width: 100%;
-    }
-    #sf-container {
-        width: 100%;
-    }
-    #searchform input {
-        width: 300px;
-    }
-    #nav-presencial ul {
-        line-height: 20px;
-    }
-    #nav-presencial ul li {
-        line-height: 30px;
-        margin-right: 36px;
-        margin-top: 6px;
-    }
-    #nav-presencial ul li:nth-child(4) {
-        margin-left: 0;
-        margin-top: 0;
-    }
-    #nav-presencial ul li:nth-child(5) {
-        margin-left: 23px;
-        margin-top: 0;
-    }
-    #nav-presencial ul li:nth-child(6) {
-        margin-left: 3px;
-        margin-top: 0;
-    }
     ul#servicios {
         margin-right: 40px;
     }
@@ -517,5 +487,35 @@
     }
     .container.container-clicktocall {
         margin-top: 190px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px 0;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }

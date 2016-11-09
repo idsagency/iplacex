@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html class="no-js" lang="es">
 
 <head>
     <meta charset="utf-8">
@@ -12,254 +12,181 @@
     <link rel="stylesheet" href="http://www.iplacex.cl/wp-content/themes/iplacex/css/bootstrap.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css" integrity="sha384-Wrgq82RsEean5tP3NK3zWAemiNEXofJsTwTyHmNb/iL3dP/sZJ4+7sOld1uqYJtE" crossorigin="anonymous">
+    <!-- non-responsive
+    <link rel="stylesheet" href="css/non-responsive.css" id="non-responsive"> -->
     <!-- style.css -->
     <link rel="stylesheet" href="css/style.css">
     <!-- style_2.css -->
     <link rel="stylesheet" href="css/style2.css">
     <!-- responsive.css -->
     <link rel="stylesheet" href="css/responsive.css">
+    <!-- responsive.css 
+    <link rel="stylesheet" href="css/responsive-v2.css">-->
     <!-- jquery ui css -->
     <link rel="stylesheet" href="http://www.iplacex.cl/wp-content/themes/iplacex/css/jquery-ui.min.css">
 </head>
 
 <body>
     <!-- header -->
-    <header class="iplasex-header releway no-padding no-margin">
-        <div class="hidden-xs hidden-sm row nuevo-header no-margin">
-            <div class="hidden-xs col-md-12">
-                <div class="container ">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <a id="presencial" class="" href="http://www.iplacex.cl/presencial/">PRESENCIAL</a>
-                            <a id="distancia" class="pactive" href="http://www.iplacex.cl">ONLINE</a>
+    <header class="iplasex-header releway">
+        <div class="nuevo-header hidden-xs hidden-sm">
+            <div class="max-width col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="container-fluid">
+                    <div class="col-md-4 col-lg-4">
+                        <a id="presencial" class="" href="http://www.iplacex.cl/presencial/">PRESENCIAL</a>
+                        <a id="distancia" class="pactive" href="http://www.iplacex.cl">ONLINE</a>
+                    </div>
+                    <div class="col-md-8 col-lg-8 no-margin no-padding">
+                        <div class="alto-40 no-padding">
+                            <a id="btn-pago" href="http://www.iplacex.cl/pago-arancel/"></a>
                         </div>
-                        <div class="hidden-xs hidden-sm col-md-8">
-                            <div class="row">
-                                <div class="col-md-2">
-                                    <span class="helper"></span><a target="_blank" href="http://correoalumno.iplacex.cl">Correo Alumnos</a>
-                                </div>
-                                <div class="col-md-2">
-                                    <span class="helper"></span><a target="_blank" href="http://dara.iplacex.cl/alumnosnet">Portal Alumnos</a>
-                                </div>
-                                <div class="col-md-2">
-                                    <span class="helper"></span><a target="_blank" href="http://www.iplacex.trabajando.com/">Portal Empleos</a>
-                                </div>
-                                <div class="col-md-2">
-                                    <span class="helper"></span><a target="_blank" href="http://www.iplacex.cl/biblioteca/">Acceso Biblioteca</a>
-                                </div>
-                                <div class="col-md-2">
-                                    <span class="helper aula-virtual"></span><a target="_blank" href="http://www.iplacex.cl/biblioteca/">Aula Virtual</a>
-                                </div>
-                                <div class="col-md-2 nomarginnopadding">
-                                    <a id="btn-pago" href="http://www.iplacex.cl/pago-arancel/"></a>
-                                </div>
-                            </div>
-                            <!-- /row -->
+                        <div class="alto-40">
+                            <span class="helper"></span><a target="_blank" href="http://www.iplacex.cl/biblioteca/">Aula Virtual</a>
+                        </div>
+                        <div class="alto-40">
+                            <span class="helper"></span><a target="_blank" href="http://www.iplacex.cl/biblioteca/">Biblioteca</a>
+                        </div>
+                        <div class="alto-40">
+                            <span class="helper"></span><a target="_blank" href="http://www.iplacex.trabajando.com/">Empleos</a>
+                        </div>
+                        <div class="alto-40">
+                            <span class="helper"></span><a target="_blank" href="http://dara.iplacex.cl/alumnosnet">Alumnos</a>
+                        </div>
+                        <div class="alto-40">
+                            <span class="helper"></span><a target="_blank" href="http://correoalumno.iplacex.cl">Correo</a>
                         </div>
                     </div>
-                    <!-- /row -->
                 </div>
                 <!-- /container -->
             </div>
         </div>
-        <div class="row row-white no-margin">
-            <div class="col-sm-12 col-md-12">
-                <div class="container">
-                    <div>
-                        <nav class="navbar">
-                            <div class="container-fluid iplasex-links">
-                                <!-- Brand and toggle get grouped for better mobile display -->
-                                <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse" aria-expanded="false">
-                                        <span class="sr-only">Toggle navigation</span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
-                                    <a id="logo" href="http://www.iplacex.cl"></a>
-                                </div>
-                                <!-- Collect the nav links, forms, and other content for toggling -->
-                                <div id="bs-example-navbar-collapse" class="collapse navbar-collapse">
-                                    <!--  menu rojo -->
-                                    <div class="hidden-md hidden-lg helper2">
-                                        <div class="helper2-row">
-                                            <a target="_blank" href="http://correoalumno.iplacex.cl">Correo Alumnos</a>
-                                        </div>
-                                        <div class="helper2-row">
-                                            <a target="_blank" href="http://dara.iplacex.cl/alumnosnet">Portal Alumnos</a>
-                                        </div>
-                                        <div class="helper2-row">
-                                            <a target="_blank" href="http://www.iplacex.trabajando.com/">Portal Empleos</a>
-                                        </div>
-                                        <div class="helper2-row">
-                                            <a target="_blank" href="http://www.iplacex.cl/biblioteca/">Acceso Biblioteca</a>
-                                        </div>
-                                        <div class="helper2-row">
-                                            <a target="_blank" href="http://www.iplacex.cl/online/aula-virtual/">Aula Virtual</a>
-                                        </div>
-                                        <div class="helper2-row">
-                                            <a target="_blank" href="http://www.iplacex.cl/pago-arancel/">PAGO ARANCEL</a>
-                                        </div>
-                                    </div>
-                                    <ul id="menu-navegacion-iplacex" class="nav navbar-nav navbar-right">
-                                        <li id="menu-item-1160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1160">
-                                            <a href="index.html">HOME</a></li>
-                                        <li id="menu-item-1160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1160">
-                                            <a href="ced.html">CED</a></li>
-                                        <li id="menu-item-1161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1161">
-                                            <a href="carreras.html">CARRERAS</a></li>
-                                        <li id="menu-item-1176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1176">
-                                            <a href="perfeccionamiento.html">PERFECIONAMIENTO</a></li>
-                                        <li id="menu-item-1162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1162">
-                                            <a href="oficinas.html">OFICINAS</a></li>
-                                        <li id="menu-item-1163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1163">
-                                            <a href="alumnos.html">ALUMNOS</a></li>
-                                        <li id="menu-item-1164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1164">
-                                            <a href="preguntas.html">PREGUNTAS FRECUENTES</a></li>
-                                        <li id="menu-item-1164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1164">
-                                            <a href="http://iplacex-2517430.hs-sites.com/blog">BLOG</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- /.container-fluid -->
-                        </nav>
+        <div class="row-white no-margin">
+            <div class="max-width col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <nav class="navbar">
+                    <div class="iplasex-links">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a id="logo" href="http://www.iplacex.cl"></a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav navbar-right" id="menu-navegacion-iplacex">
+                                <li class="helper2-row hidden-md hidden-lg">
+                                    <a target="_blank" href="http://correoalumno.iplacex.cl">CORREO</a>
+                                </li>
+                                <li class="helper2-row hidden-md hidden-lg">
+                                    <a target="_blank" href="http://dara.iplacex.cl/alumnosnet">ALUMNOS</a>
+                                </li>
+                                <li class="helper2-row hidden-md hidden-lg">
+                                    <a target="_blank" href="http://www.iplacex.trabajando.com/">EMPLEOS</a>
+                                </li>
+                                <li class="helper2-row hidden-md hidden-lg">
+                                    <a target="_blank" href="http://www.iplacex.cl/biblioteca/">BIBLIOTECA</a>
+                                </li>
+                                <li class="helper2-row hidden-md hidden-lg">
+                                    <a target="_blank" href="http://www.iplacex.cl/online/aula-virtual/">AULA VIRTUAL</a>
+                                </li>
+                                <li class="helper2-row hidden-md hidden-lg">
+                                    <a target="_blank" href="http://www.iplacex.cl/pago-arancel/">PAGO ARANCEL</a>
+                                </li>
+                                <li id="menu-item-1160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1159">
+                                    <a href="index.html">HOME</a></li>
+                                <li id="menu-item-1160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1160">
+                                    <a href="ced.html">CED</a></li>
+                                <li id="menu-item-1161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1161">
+                                    <a href="carreras.html">CARRERAS</a></li>
+                                <li id="menu-item-1176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1176">
+                                    <a href="perfeccionamiento.html">PERFECIONAMIENTO</a></li>
+                                <li id="menu-item-1162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1162">
+                                    <a href="oficinas.html">OFICINAS</a></li>
+                                <li id="menu-item-1163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1163">
+                                    <a href="alumnos.html">ALUMNOS</a></li>
+                                <li id="menu-item-1164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1164">
+                                    <a href="preguntas.html">PREGUNTAS FRECUENTES</a></li>
+                                <li id="menu-item-1164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1164">
+                                    <a href="http://iplacex-2517430.hs-sites.com/blog">BLOG</a></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
+                    <!-- /.container-fluid -->
+                </nav>
             </div>
         </div>
     </header>
     <!-- /header -->
-    <section class="call-me releway">
-        <div class="container-home">
-            <div class="row">
-                <div class="col-md-11 col-md-offset-1 col-sm-12 col-xs-12">
-                    <h3 class="hidden-xs"><strong>UNA MEJOR EXPERIENCIA <br></strong> DE APRENDIZAJE</h3>
-                    <h4 class="hidden-xs">Flexible y adaptable a tu ritmo. <br>
-                Lo que necesitas hoy, para ser lo que quieres ser mañana.</h4>
-                    <h3 class="visible-xs-inline visible-mobile"><strong>ESTUDIA</strong>
-                DONDE ESTÉS</h3><br>
-                
-                <button type="button" class="btn-home btn-secondary"><a href="#" class="btn-home-2">SOLICITAR MÁS INFORMACIÓN</a></button>
-                
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="modes">
+    <!-- seccion de contenido -->
+    <section>
         <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="info-box">
-                        <h3>Modo</h3>
-                        <h4>E-learning</h4>
-                        <p>Carreras técnicas y profesionales en nuestras 4 sedes presenciales a lo largo del país</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="info-box">
-                        <h3>Carreras</h3>
-                        <h4>Profesionales</h4>
-                        <p>Carreras técnicas y profesionales en nuestras 4 sedes presenciales a lo largo del país</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="info-box">
-                        <h3>Carreras</h3>
-                        <h4>Técnicas</h4>
-                        <p>Carreras técnicas y profesionales en nuestras 4 sedes presenciales a lo largo del país</p>
+            <div class="row contenido-padding">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-8 margin-top-25">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h2>CARRERAS <strong>ONLINE</strong></h2>
+                                </div>
+                                <div class="panel-body ">
+                                    <table class="table table-hover table-responsive">
+                                        <tbody>
+                                            <h5><strong>CARRERAS PROFESIONALES</strong></h5>
+                                            <tr>
+                                                <td>
+                                                    <a href="administracion-publica.html">Administración Pública</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#">
+                                                    Auditoría
+                                                </a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#">
+                                                    Ingeniería de Ejecución en Administración Mención Gestión Desarrollo Local y Regional
+                                                </a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    <table class="table table-hover table-responsive">
+                                        <tbody>
+                                            <h5><strong>CARRERAS TÉCNICAS</strong></h5>
+                                            <tr>
+                                                <td><a href="#">
+                                                    Contabilidad
+                                                </a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#">
+                                                    Técnico en Administración de Empresas
+                                                </a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#">
+                                                    Técnico en Administración Mención Gestión Municipal
+                                                </a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2"></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="why">
-        <div class="container">
-            <h2><strong>¿POR QUÉ ESTUDIAR</strong><br>
-                    A TRAVÉS DE <strong>E-LEARNING IPLACEX?</strong></h2>
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="box-why">
-                        <img class="img-responsive" src="http://www.iplacex.cl/wp-content/themes/iplacex/nuevo/images/user.png" alt="">
-                        <div>
-                            <h5>Por calidad de vida</h5>
-                            <p>Todo el tiempo que perderías en traslados dedícalo a estudiar y a tu familia.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="box-why">
-                        <img class="img-responsive" src="http://www.iplacex.cl/wp-content/themes/iplacex/nuevo/images/clock.png" alt="">
-                        <div>
-                            <h5>Por tu tiempo</h5>
-                            <p>Todo el tiempo que perderías en traslados dedícalo a estudiar y a tu familia.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="box-why">
-                        <img class="img-responsive" src="http://www.iplacex.cl/wp-content/themes/iplacex/nuevo/images/money.png" alt="">
-                        <div>
-                            <h5>Por tu ahorro</h5>
-                            <p>Todo el tiempo que perderías en traslados dedícalo a estudiar y a tu familia.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="box-why">
-                        <img class="img-responsive" src="http://www.iplacex.cl/wp-content/themes/iplacex/nuevo/images/book.png" alt="">
-                        <div>
-                            <h5>Porque puedes estudiar estés donde estés</h5>
-                            <p>Todo el tiempo que perderías en traslados dedícalo a estudiar y a tu familia.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="box-why">
-                        <img class="img-responsive" src="http://www.iplacex.cl/wp-content/themes/iplacex/nuevo/images/home.png" alt="">
-                        <div>
-                            <h5>Por flexibilidad de horarios</h5>
-                            <p>Todo el tiempo que perderías en traslados dedícalo a estudiar y a tu familia.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="box-why">
-                        <img class="img-responsive" src="http://www.iplacex.cl/wp-content/themes/iplacex/nuevo/images/tie.png" alt="" style="margin-right: 43px;">
-                        <div>
-                            <h5>Por tu crecimiento profesional</h5>
-                            <p>Todo el tiempo que perderías en traslados dedícalo a estudiar y a tu familia.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="dream">
-        <div class="container">
-            <h2><strong>estudia lo que</strong> siempre <strong>soñaste</strong></h2>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 ">
-                    <div class="carreras contablidad"><a href="http://www.iplacex.cl/blog/online/carreras/contabilidad/">Contabilidad</a></div>
-                </div>
-                <div class="col-md-4 col-sm-6 ">
-                    <div class="carreras riegos"><a href="http://www.iplacex.cl/blog/online/carreras/ingenieria-en-prevencion-de-riesgos-calidad-y-medio-ambiente/">Ing. en prevención de riesgos</a></div>
-                </div>
-                <div class="col-md-4 col-sm-6 ">
-                    <div class="carreras empresas"><a href="http://www.iplacex.cl/blog/online/carreras/ingenieria-en-administracion-de-empresas/">Ing. en Adm. de Empresas</a></div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="carreras psicopedagogia"><a href="http://www.iplacex.cl/blog/online/carreras/psicopedagogia/">Psicopedagogía</a></div>
-                </div>
-                <div class="col-md-4 col-sm-6 ">
-                    <div class="carreras logistica"><a href="http://www.iplacex.cl/blog/online/carreras/tecnico-en-logistica/">Técnico en Logística</a></div>
-                </div>
-                <div class="col-md-4 col-sm-6 ">
-                    <div class="carreras social"><a href="http://www.iplacex.cl/blog/online/carreras/tecnico-en-trabajo-social/">Trabajo Social</a></div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- seccion de contenido -->
     <footer class="iplasex-footer">
         <div class="container">
             <h3><strong>CONTÁCTATE</strong><br> CON NUESTRAS <strong>OFICINAS</strong></h3>
@@ -450,7 +377,7 @@
         <div class="footer-links">
             <div class="container">
                 <div class="row">
-                    <div class="hidden-xs col-md-3 col-sm-3 text-center">
+                    <div class="hidden-xs col-md-3 col-sm-6 text-center">
                         <h5>IPLACEX</h5>
                         <div class="menu-navegacion-iplacex-container">
                             <ul id="menu-navegacion-iplacex-1" class="flist">
@@ -463,7 +390,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="hidden-xs col-md-3 col-sm-3 text-center">
+                    <div class="hidden-xs col-md-3 col-sm-6 text-center">
                         <h5>CED</h5>
                         <div class="menu-navegacion-ced-container">
                             <ul id="menu-navegacion-ced" class="flist">
@@ -477,7 +404,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="hidden-xs col-md-3 col-sm-3 text-center">
+                    <div class="hidden-xs col-md-3 col-sm-6 text-center">
                         <h5>ACCESOS</h5>
                         <ul class="flist">
                             <li><a href="http://www.iplacex.cl/online/aula-virtual/">Aula Virtual</a></li>
@@ -489,10 +416,10 @@
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-center margined">
-                        <a href="index.html"><img src="http://www.iplacex.cl/wp-content/themes/iplacex/nuevo/images/logo-footer.png" alt=""></a>
+                        <a id="logo" href="http://www.iplacex.cl"></a>
                         <div class="social-icons">
-                            <a href="https://www.facebook.com/ipiplacex"><img src="http://www.iplacex.cl/wp-content/themes/iplacex/nuevo/images/facebook.png" alt=""></a>
-                            <a href="https://twitter.com/iplacexip"><img src="http://www.iplacex.cl/wp-content/themes/iplacex/nuevo/images/twitter.png" alt=""></a>
+                            <a href="https://www.facebook.com/ipiplacex"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/iplacexip"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -532,6 +459,8 @@
     <script src="http://www.iplacex.cl/wp-content/themes/iplacex/js/animatescroll.js"></script>
     <!-- menu white -->
     <script src="js/script.js"></script>
+        <!-- top arrow -->
+    <script type="text/javascript" src="http://arrow.scrolltotop.com/arrow35.js"></script>
 </body>
 
 </html>

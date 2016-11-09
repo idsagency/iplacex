@@ -525,7 +525,11 @@
     }
 }
 
+<<<<<<< HEAD
 @media (max-width: 1030px) {
+=======
+@media (max-width: 991px) {
+>>>>>>> origin/iplacex
     .navbar-header {
         float: none;
     }
@@ -534,7 +538,11 @@
     }
     .navbar-collapse {
         border-top: 1px solid transparent;
+<<<<<<< HEAD
         box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+=======
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+>>>>>>> origin/iplacex
     }
     .navbar-collapse.collapse {
         display: none!important;

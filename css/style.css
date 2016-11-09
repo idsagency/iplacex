@@ -267,7 +267,11 @@ img.emoji {
 }
 
 .navbar-collapse {
+<<<<<<< HEAD
     /*max-height: 510px;*/
+=======
+    max-height: 100%;
+>>>>>>> origin/iplacex
     padding-right: 0px;
     padding-left: 0px;
     overflow-x: visible;

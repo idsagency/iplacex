@@ -797,7 +797,11 @@ a#presencial:hover {
     background-color: #ffffff;
 }
 
-.row.row-white {
+.row-white {
+    background-color: #ffffff;
+    margin: 5px 0 0;
+}
+.row-grey {
     background-color: #ffffff;
     margin: 5px 0 0;
 }

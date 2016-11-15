@@ -277,10 +277,8 @@ img.emoji {
 }
 
 .navbar-collapse {
-    <<<<<<< HEAD
-    /*max-height: 510px;*/
-    =======max-height: 100%;
-    >>>>>>> origin/iplacex padding-right: 0px;
+    max-height: 100%;
+    padding-right: 0px;
     padding-left: 0px;
     overflow-x: visible;
     border-top: none;
@@ -452,7 +450,6 @@ a#distancia {
 
 a#distancia {
     color: #ffffff;
-    /*background-color: #ffffff;*/
 }
 
 ul#servicios,
@@ -595,18 +592,6 @@ img#acceso-plataformas {
     font-weight: normal;
     font-style: normal;
 }
-
-
-/*.nuevo-header .col-md-2 a {
-    color: #fff;
-    text-align: right;
-    vertical-align: middle;
-    display: inline-block;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: normal;
-    font-style: normal;
-}*/
 
 #btn-avirtual {
     border: 1px solid;
@@ -907,7 +892,7 @@ a#presencial:hover {
 }
 
 
-/*Reestableciendo los estilos fallidos aplicados al sitio*/
+/*-- Reestableciendo los estilos fallidos aplicados al sitio  --*/
 
 @media (min-width: 1200px) {
     .container {
@@ -951,7 +936,7 @@ header.iplasex-header {
 
 .iplasex-links .menu-item > a:hover,
 .iplasex-links .menu-item > a:focus {
-    background: #ffffff;
+    background:transparent;
 }
 
 .iplasex-links .menu-item > a::after {
@@ -1592,7 +1577,6 @@ select#ctc_sede.form-control {
         background-position: right;
         background-repeat: no-repeat;
         position: relative;
-        /*height: 400px;*/
     }
     .call-me .col-md-8::before {
         content: '';
@@ -1776,7 +1760,67 @@ a .panel-default {
    color:#bf0411 !important;
     font-size: 13px !important;
 }
+
+/*-- tablas carreras --*/
 table.carreras {
     width: 100%;
     margin-bottom: 80px;
 }
+table.carreras th.th-eadm {
+    background: #80726c;
+}
+
+table.carreras th.th-carreras {
+    padding: 10px;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+table.carreras td.nivel {
+    padding: 10px;
+    background: #a7a7a7;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+table.carreras td {
+    padding: 10px;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+table.carreras th.th-esal {
+    background: #0084b7;
+}
+table.carreras th.th-econ {
+    background: #d52843;
+}
+
+table.carreras th.th-eedu {
+    background: #f8a81f;
+}
+
+table.carreras th.th-einf {
+    background: #2e2a6f;
+}
+
+table.carreras th.th-etur {
+    background: #87bc40;
+}
+
+table.carreras th.th-ecss {
+    background: #318a42;
+}
+
+table.carreras th.th-ecss {
+    background: #318a42;
+}
+
+table.carreras a {
+   color: #bf0411 !important;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 11px;
+}
+

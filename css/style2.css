@@ -1040,6 +1040,7 @@ a#flogo {
 
 #menu-navegacion-iplacex li a:hover {
     cursor: pointer;
+    background-color: transparent !important;
 }
 
 #page-content.sin-fondo-blanco {

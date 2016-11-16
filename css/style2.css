@@ -1250,6 +1250,20 @@ screen and (min-width:0\0) {
 .btn-block {
     color: #ffffff;
     background-color: #bf0411;
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0 !important;
+    transition: all 3s;
+    text-decoration: none;
+}
+
+.btn-block-2 {
+    color: #ffffff;
+    background-color: #7b7d80;
+    font-size: 12px;
     display: block;
     width: 100%;
     padding-right: 0;
@@ -1271,8 +1285,25 @@ screen and (min-width:0\0) {
     text-decoration: none;
 }
 
+.btn-block-2:hover {
+    color: #bf0411;
+    background-color: #ffffff;
+    transition: all 3s;
+    text-decoration: none;
+}
+
 .btn-block::before {
     content: "\f1c1";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    padding-right: 10px;
+    z-index: 999;
+}
+
+.btn-block-2::before {
+    content: "\f095";
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;

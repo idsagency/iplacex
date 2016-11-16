@@ -185,6 +185,12 @@
     .modes {
         padding: 15px 0;
     }
+    .btn-block {
+        margin-bottom: 10px;
+    }
+    .btn-block-2 {
+        margin-bottom: 10px;
+    }
 }
 
 

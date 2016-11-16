@@ -959,7 +959,7 @@ header.iplasex-header {
 
 .call-me {
     height: auto;
-    background-image: url(http://iplacex.cl/wp-content/themes/iplacex/nuevo/images/iplasex-1.png);
+    background-image: url(../images/home-image-2.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
@@ -1296,7 +1296,7 @@ header.iplasex-header {
     padding: 15px 0;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 13px;
     position: relative;
     color: #bf0411;
     padding-top: 25px;
@@ -1824,3 +1824,65 @@ table.carreras a {
     font-size: 11px;
 }
 
+/*-- dropdown cursos
+
+.drop-ddd {
+    width: 100% !important;
+    background-color: #bf0411;
+    color: #ffffff;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: left;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    color: #ffffff;
+    background-color: #bf0411;
+    border-color: #ffffff;
+}
+
+.dropdown-menu {
+    position: initial;
+    top: 100%;
+    left: 0;
+    z-index: 999999;
+    display: none;
+    float: left;
+    width: 100%;
+    min-width: 160px;
+    padding: 5px 0;
+    margin:0px 0px 20px 0px;
+    font-size: 14px;
+    list-style: none;
+    background-color: #fff;
+    border: 0px solid #ccc !important;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-clip: padding-box;
+}
+
+.btn-default .caret {
+    border-top-color: #ffffff !important;   
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #bf0411;
+}
+
+dropdown cursos --*/

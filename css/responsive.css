@@ -185,6 +185,23 @@
     .modes {
         padding: 15px 0;
     }
+
+    .thumbnail {
+    display: inline-block;
+    display: block;
+    height: auto !important;
+    max-width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+    margin-bottom: 15px;
+    line-height: 1.428571429;
+    background-color: #fff;
+    border: 1px solid #bf0411;
+    border-radius: 0px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
 }
 
 

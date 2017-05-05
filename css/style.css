@@ -1823,6 +1823,31 @@ table.carreras a {
     font-style: normal;
     font-size: 11px;
 }
+/*-- autoridades thum --*/
+.thumbnail {
+    display: inline-block;
+    display: block;
+    height: 280px !important;
+    max-width: 100%;
+    padding: 4px;
+    line-height: 1.428571429;
+    background-color: #fff;
+    border: 1px solid #bf0411;
+    border-radius: 0px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.thumbnail h3 {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 130%;
+}
+
+.thumbnail p {
+    text-align: center;
+}
+/*-- autoridades --*/
 
 /*-- dropdown cursos
 

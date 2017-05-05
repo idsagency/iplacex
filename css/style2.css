@@ -1,0 +1,1313 @@
+/*-- HOME --*/
+.container-home {
+    height: 450px;
+    padding: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#slider {
+    width: 727px;
+    height: 360px;
+    float: left;
+}
+
+a.programas {
+    display: block;
+    width: 25%;
+    height: 210px;
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    overflow: hidden;
+    color: #fff;
+}
+
+a.programas:hover {
+    text-decoration: none;
+}
+
+a.presenciales {
+    background: url(http://iplacex.cl/wp-content/themes/iplacex/img/bg-a-presenciales2.png) no-repeat;
+}
+
+a.elearning {
+    background: url(http://iplacex.cl/wp-content/themes/iplacex/img/bg-a-elearning.jpg) no-repeat;
+}
+
+a.pro {
+    background: url(http://iplacex.cl/wp-content/themes/iplacex/img/bg-a-pro.jpg) no-repeat;
+}
+
+.programas-int {
+    width: 100%;
+    min-height: 210px;
+    margin-top: 140px;
+    padding: 15px;
+}
+
+.int-pre {
+    background: #aaaaaa;
+}
+
+.int-elearning {
+    background: #e30613;
+}
+
+.int-pro {
+    background: #707070;
+}
+
+.programas-int h4 {
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.programas-int p {
+    color: #fff;
+}
+
+#postit {
+    width: 228px;
+    height: 210px;
+    position: relative;
+    float: right;
+    margin-top: 30px;
+    padding-top: 55px;
+    background: url(http://iplacex.cl/wp-content/themes/iplacex/img/bg-a-postit.png) no-repeat;
+    text-align: center;
+}
+
+#postit a {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 45px;
+}
+
+#postit a:hover {
+    text-decoration: none;
+    color: #c01e29;
+}
+
+#noticias-wrapp {
+    width: 100%;
+    padding-top: 30px;
+    /*margin-top: 15px;*/
+    background: #ebebeb;
+}
+
+.noticia-home {
+    width: 100%;
+    height: 270px;
+    margin-bottom: 30px;
+    background: #fff;
+}
+
+.imgcrop-1,
+.imgcrop-2 {
+    width: 100%;
+    height: 140px;
+    background: #f2f2f2;
+    overflow: hidden;
+}
+
+.imgcrop-1 img {
+    width: 100%;
+    height: auto;
+}
+
+.imgcrop-1 img {
+    width: auto;
+    height: 100%;
+}
+
+.noticia-home-tb {
+    width: 100%;
+    height: 118px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.noticia-home-tb p {
+    text-align: left;
+}
+
+#video-wrapp {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    background: #363636;
+}
+
+#video-wrapp h2 {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 24px;
+    background: #111111;
+    color: #fff;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*-- FORMULARIO ADMISION y CTC --*/
+
+#form-admision,
+#form-ctcall {
+    width: 228px;
+    min-height: 360px;
+    float: right;
+    padding: 15px;
+    background: #464646;
+}
+
+#form-admision h5,
+#form-ctcall h5 {
+    color: #fff;
+    text-align: center;
+}
+
+#form-ctcall h5 {
+    margin-top: 7px;
+    margin-bottom: 0;
+    text-align: left;
+    font-weight: 700;
+}
+
+#form-ctcall p {
+    color: #fff;
+    text-align: left;
+    font-size: 11px;
+}
+
+#form-ctcall figure {
+    margin-right: 10px;
+}
+
+#form-admision .form-group,
+#form-ctcall .form-group {
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+#form-admision .form-control,
+#form-ctcall .form-control {
+    height: 30px;
+    padding: 5px 5px 5px 10px;
+    color: #fff;
+    background: #464646;
+    border-radius: 0px;
+}
+
+#form-admision .codt,
+#form-ctcall .codt {
+    width: 55px;
+    float: left;
+    margin: 0 5px 0 15px;
+}
+
+#form-admision .numt,
+#form-ctcall .numt {
+    width: 138px;
+    float: left;
+    margin: 0 15px 0 0px;
+}
+
+#form-admision h5 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+#form-admision label {
+    color: #fff;
+}
+
+#form-admision .btn {
+    padding: 4px 12px;
+}
+
+#combo-sede-1,
+#combo-sede-2,
+#combo-sede-3 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.icon-phone {
+    float: left;
+    color: #d9534f;
+}
+
+.modal-form-cotainer {
+    width: 100%;
+    padding-right: 155px;
+    background: #464646;
+}
+
+
+/*-- INSTITUCION --*/
+
+.autoridad {
+    width: 100%;
+    height: 155px;
+    float: left;
+    margin-bottom: 30px;
+    background: #fff;
+}
+
+.autoridad figure {
+    float: left;
+    margin-right: 15px
+}
+
+.autoridad h5 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.autoridad p {
+    margin: 0;
+}
+
+#dirsedes {
+    margin-bottom: 50px;
+}
+
+.director {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5px;
+    background: #fff;
+    padding: 15px;
+}
+
+.aut-content {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 50px;
+    padding: 20px;
+    background: #fff;
+}
+
+
+/*-- ADMISION --*/
+
+#nav-admision {
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    background: #fff;
+}
+
+#nav-admision .nav-tabs {
+    border-bottom: none;
+}
+
+#nav-admision .current-menu-item a {
+    color: #555555;
+    cursor: default;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-bottom-color: transparent;
+}
+
+.block-escuela {
+    height: 340px;
+    margin-bottom: 30px;
+    padding: 5px 20px;
+    background: #fff;
+}
+
+.block-escuela h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+span.escuelade {
+    width: 100%;
+    float: left;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.li-carreras {
+    padding: 0;
+    list-style-type: none;
+}
+
+.li-carreras li {
+    margin-bottom: 5px;
+}
+
+#slider-adm-wrapp {
+    width: 100%;
+    height: 300px;
+    margin-top: -50px;
+    background: #9a9792;
+}
+
+#slider-admision {
+    width: 970px;
+    height: 300px;
+}
+
+figure.malla-jpg {
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+figure.malla-ced-jpg {
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.decargar-malla {
+    margin-bottom: 20px;
+}
+
+
+/*-- CARRERAS --*/
+
+a#modal-ctcall {
+    display: block;
+    width: 100%;
+    float: right;
+    width: 228px;
+    margin-top: 15px;
+    background: #f72d3b;
+    padding: 25px 15px 15px 15px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+a#modal-ctcall:hover {
+    background: #c01e29;
+    text-decoration: none;
+}
+
+.icon-phone-2 {
+    float: left;
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+
+/*-- SEDES --*/
+
+#banner-sedes {
+    width: 100%;
+    height: 160px;
+    margin-top: -50px;
+    margin-bottom: 15px;
+    background: url(http://iplacex.cl/wp-content/themes/iplacex/img/banner-sedes-01.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.sede-box {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    background: #fff;
+}
+
+.mapita {
+    width: 100%;
+    height: 140px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+#map-wrapp {
+    padding: 0;
+}
+
+#map-scl,
+#map-cpo,
+#map-vlp,
+#map-tlx,
+#map-pta {
+    width: 100%;
+    height: 190px;
+}
+
+table.arancel {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+table.arancel th {
+    padding: 10px;
+    background: #ed1d24;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+table.arancel td.nivel,
+table.arancel td.nivel-arancel {
+    padding: 10px;
+    background: #a7a7a7;
+    color: #fff;
+}
+
+table.arancel td.nivel {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+table.arancel td.nivel-arancel {
+    width: 12%;
+    text-align: center;
+    line-height: 12px;
+}
+
+table.arancel td,
+table.arancel td.arancel {
+    padding: 10px;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+table.arancel td.arancel {
+    text-align: center;
+}
+
+table.arancel td.td-footer,
+table.arancel td.td-footer-arancel {
+    font-size: 10px;
+    border-bottom: none;
+    color: #a7a7a7;
+    line-height: 14px;
+}
+
+table.arancel td.td-footer-arancel {
+    text-align: center;
+}
+
+.label-default {
+    background-color: #c2c2c2;
+}
+
+
+/*-- ALUMNOS --*/
+
+#banner-alumnos {
+    width: 100%;
+    height: 160px;
+    margin-top: -50px;
+    background: url(http://iplacex.cl/wp-content/themes/iplacex/img/banner-alumnos-01.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#row-halumnos {
+    height: 165px;
+    margin-top: 40px;
+}
+
+a.halumnos {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    text-align: center;
+    color: #d9534f;
+}
+
+a:hover.halumnos {
+    color: #d2322d;
+    text-decoration: none;
+}
+
+a.halumnos h4 {
+    font-weight: 700;
+}
+
+#form-reclamos {
+    margin-top: 20px;
+}
+
+#enviando-reclamo {
+    display: none;
+}
+
+
+/*-- NOTICIAS --*/
+
+#news-list {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    background: #fff;
+}
+
+#news-list h5 {
+    margin-bottom: 0;
+}
+
+#news-sidebar {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    overflow: hidden;
+    background: #fff;
+}
+
+#news-sidebar h5 {
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+#news-sidebar p {
+    text-align: left;
+}
+
+#news-sidebar ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+#news-sidebar ul li {
+    display: block;
+    border-top: 1px dotted #959595;
+}
+
+#news-sidebar ul li a {
+    color: #464646;
+}
+
+
+/*-- INTERIOR --*/
+
+#page-content {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #fff;
+}
+
+#page-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+#page-content img.alignleft {
+    float: left;
+    margin: 10px;
+}
+
+.w-box {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #fff;
+}
+
+#sidebar-nav {
+    background: #fff;
+    border-radius: 4px;
+}
+
+#sidebar-nav .nav-pills li {
+    border-bottom: 1px solid #dbe6ec;
+    border-radius: 0;
+}
+
+#sidebar-nav .nav-pills li:last-child {
+    border-bottom: none;
+}
+
+#sidebar-nav .current-menu-item a {
+    color: #fff;
+    background-color: #428bca;
+    border-radius: 0;
+}
+
+#sidebar-nav .current-menu-item:first-child a {
+    border-radius: 4px 4px 0 0;
+}
+
+#sidebar-nav .current-menu-item:last-child a {
+    border-radius: 0 0 4px 4px;
+}
+
+#sidebar-nav .nav-stacked>li+li {
+    margin-top: 0;
+}
+
+
+/*-- PAGO ARANCEL --*/
+
+#pago-title-wrapp {
+    width: 100%;
+    margin-top: -50px;
+    margin-bottom: 40px;
+    background: #edc00d;
+}
+
+a.servipag,
+a.cupon {
+    display: block;
+    width: 200px;
+    height: 280px;
+    margin: 0 auto 40px auto;
+    padding-top: 200px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333333;
+}
+
+a.servipag {
+    background: url(http://iplacex.cl/wp-content/themes/iplacex/img/btn-pago-01.png) no-repeat;
+}
+
+a.cupon {
+    background: url(http://iplacex.cl/wp-content/themes/iplacex/img/btn-pago-02.png) no-repeat;
+}
+
+.pago-box {
+    width: 100%;
+    min-height: 450px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #fff;
+}
+
+.pago-box ol li {
+    margin: 10px 0;
+}
+
+
+/*-- CED --*/
+
+#banner-alumnos-ced {
+    width: 100%;
+    height: 160px;
+    margin-top: -50px;
+    margin-bottom: 15px;
+    background: url(http://iplacex.cl/wp-content/themes/iplacex/img/banner-ced-01.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.row-ced {
+    margin-top: 15px;
+}
+
+#row-elearning {
+    height: 480px;
+    padding-top: 140px;
+    background: url(http://iplacex.cl/wp-content/themes/iplacex/img/bg-row-elearning.jpg) no-repeat;
+}
+
+#row-pro {
+    height: 480px;
+    margin-bottom: 20px;
+    padding-top: 140px;
+    background: url(http://iplacex.cl/wp-content/themes/iplacex/img/bg-row-pro.jpg) no-repeat;
+}
+
+#row-elearning ul,
+#row-pro ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+#row-elearning ul li,
+#row-pro ul li {
+    margin-bottom: 10px;
+}
+
+#row-elearning ul li a,
+#row-pro ul li a {
+    color: #464646;
+}
+
+#btn-prop {
+    margin-top: 50px;
+}
+
+#banner-faq {
+    width: 100%;
+    height: auto;
+    margin-top: -50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    background: url(http://iplacex.cl/wp-content/themes/iplacex/img/banner-faq.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#banner-faq h1 {
+    color: #fff;
+}
+
+.row-padding {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+
+/*-- SOCIAL --*/
+
+.fb_iframe_widget {
+    margin-top: 20px;
+}
+
+
+/*-- AULA VIRTUAL --*/
+
+h1.pag-acceso {
+    margin-top: 15px;
+    text-align: right;
+}
+
+.av-access {
+    margin-top: 40px;
+    padding-bottom: 40px;
+    background: #fff;
+}
+
+h2.titulo-acceso {
+    display: block;
+    min-height: 80px;
+    font-weight: 800;
+}
+
+h2.titulo-acceso span {
+    font-size: 24px;
+    color: #e30613
+}
+
+.btn-access {
+    width: 100%;
+}
+
+
+/*-- CONSULTAS MATRÃCULA --*/
+
+#form-matricula {
+    margin: 40px 0;
+}
+
+#enviando-matricula {
+    display: none;
+}
+
+
+/*-- FOOTER --*/
+
+footer {
+    width: 100%;
+    min-height: 210px;
+    margin: -210px auto 0;
+    padding: 30px 0;
+    background: #464646;
+}
+
+footer h5 {
+    color: #e1e1e1;
+    font-weight: 700;
+}
+
+p.ipla {
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: left;
+    color: #cccccc;
+}
+
+ul.flist {
+    padding: 0;
+    list-style-type: none;
+    font-weight: 300;
+}
+
+ul.flist li {
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+ul.flist li a {
+    color: #cccccc;
+}
+
+a#flogo {
+    display: block;
+    width: 132px;
+    height: 27px;
+    background: url(http://iplacex.cl/wp-content/themes/iplacex/img/logo-iplacex-2.png) no-repeat;
+}
+
+.cd-top {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    /* image replacement properties */
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: rgba(232, 98, 86, 0.8) url(http://iplacex.cl/wp-content/themes/iplacex/img/cd-top-arrow.png) no-repeat center 50%;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.cd-top.cd-is-visible {
+    /* the button becomes visible */
+    visibility: visible;
+    opacity: 1;
+}
+
+.cd-top.cd-fade-out {
+    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+    opacity: .5;
+}
+
+.no-touch .cd-top:hover {
+    background-color: #e86256;
+    opacity: 1;
+}
+
+.container.container-clicktocall {
+    height: 600px;
+    margin-top: 20px;
+}
+
+
+/* ADMISION 2 SEMESTRE */
+
+#adm2sem {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    background: #fff;
+}
+
+.pro2sem {
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+    padding: 0 15px 15px 15px;
+    background: #464646;
+}
+
+.pro2sem p {
+    color: #f4f4f4;
+}
+
+.pro2sem a {
+    color: #fff;
+}
+
+.pro2sem a.verpro {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+.pro2sem a.verpro:hover {
+    background: #fff;
+    color: #085380;
+    text-decoration: none;
+    -webkit-transition: background 0.5s ease;
+    transition: background 0.5s ease;
+}
+
+.pro2sem img {
+    width: 100%
+}
+
+
+/*-- SUBDERE --*/
+
+#slider-subdere-wrapp {
+    margin-top: -50px;
+    background: #c2c6c9;
+}
+
+#form-solicitud-reclamo {
+    width: 450px;
+    margin: 0 auto;
+}
+
+#form-solicitud-reclamo label {
+    margin-right: 15px;
+    text-align: right;
+    width: 70px;
+}
+
+#form-solicitud-reclamo input {
+    border: solid 1px #7d7d7d;
+    padding: 4px;
+    width: 300px;
+}
+
+#form-solicitud-reclamo #radios label,
+#form-solicitud-reclamo #radios input {
+    width: auto;
+    margin-right: 4px;
+}
+
+#solicitud_solicitud {
+    margin-left: 87px;
+}
+
+#reclamo_solicitud {
+    margin-left: 20px;
+}
+
+#form-solicitud-reclamo textarea {
+    border: solid 1px #7d7d7d;
+    resize: none;
+    height: 110px;
+    width: 300px;
+    padding: 4px;
+}
+
+#form-solicitud-reclamo button {
+    width: 200px;
+    margin-top: 15px;
+    margin-right: 60px;
+    display: inline-block;
+}
+
+#p-boton {
+    text-align: right;
+}
+
+#form-solicitud-reclamo h2 {
+    margin-bottom: 20px;
+}
+
+#form-solicitud-reclamo p.error {
+    color: red;
+    margin-left: 88px;
+}
+
+#form-solicitud-reclamo .no-mergin {
+    margin: 0 !important;
+}
+
+#menu-navegacion-iplacex li a:hover {
+    cursor: pointer;
+    background-color: transparent !important;
+}
+
+#page-content.sin-fondo-blanco {
+    background: none;
+}
+
+#page-content.sin-fondo-blanco .row {
+    margin-bottom: 15px;
+}
+
+.contenedor-autoridad {
+    background-color: #fff;
+    padding-bottom: 50px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.contenedor-autoridad:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+.contenedor-autoridad.col-md-4 {
+    width: 32%;
+    min-height: 150px;
+}
+
+.contenedor-autoridad p {
+    margin-bottom: 0;
+}
+
+.contenedor-autoridad .nombre {
+    color: #464646;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0 5px 0;
+}
+
+.contenedor-autoridad .area-tit,
+.contenedor-autoridad .cargo-tit {
+    color: #333333;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contenedor-autoridad .area,
+.contenedor-autoridad .cargo,
+.gris .email,
+.gris .anexo {
+    color: #464646;
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 18px;
+}
+
+.contenedor-autoridad .cargo {
+    text-align: unset;
+}
+
+.gris {
+    background-color: #dfdfdf;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 6px 15px;
+}
+
+.gris .email,
+.gris .anexo {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page a:hover {
+    cursor: pointer;
+}
+
+.row.tit-autor {
+    margin-top: -24px;
+}
+
+.row.tit-autor.m-top {
+    margin-top: 30px;
+}
+
+.pro2sem > h3 {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.muy-largo {
+    font-size: 10px;
+}
+
+.tabla-nombres-muy-largos .col-md-4,
+.tabla-nombres-muy-largos .col-md-3,
+.tabla-nombres-muy-largos .col-md-2,
+.tabla-nombres-muy-largos .col-md-12 {
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+#form-solicitud-reclamo input[type="radio"] {
+    width: 2%;
+    margin: 1px;
+}
+
+#form-solicitud-reclamo label#label-Carreras,
+#form-solicitud-reclamo label#label-Perfeccionamiento {
+    margin-right: 15px;
+    text-align: left;
+    margin-left: 2px;
+}
+
+#suma-link a {
+    color: #464646;
+    font-size: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .cd-top {
+        /* right: 20px;
+        bottom: 20px;*/
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .cd-top {
+        height: 60px;
+        width: 60px;
+        right: 30px;
+        bottom: 30px;
+    }
+}
+
+@-moz-document url-prefix() {
+    #slider-admision {
+        background-position: center -38px !important;
+    }
+}
+
+@media \0screen\,
+screen\9,
+screen and (min-width:0\0) {
+    #slider-admision {
+        background-position: center -38px !important;
+    }
+}
+
+.cabecera-contacto {
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.datos-contacto {
+    background-color: #ffffff;
+}
+
+.datos-contacto .col-md-12 > h3 {
+    font-size: 14px;
+    margin-top: 1px;
+    text-align: center;
+}
+
+.datos-contacto .col-md-12 > h2 {
+    font-size: 20px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.row-datos-contacto {
+    display: none;
+}
+
+#flecha-arriba,
+#flecha-abajo {
+    display: block;
+    margin: 0 auto;
+}
+
+#flecha-arriba:hover,
+#flecha-abajo:hover {
+    cursor: pointer;
+}
+
+.oficinas-ced {
+    padding-left: 30px;
+    padding-bottom: 10px;
+    line-height: 5px;
+    font-size: 12px;
+}
+
+.oficinas-ced p {
+    color: #595959;
+}
+
+.oficinas-ced a {
+    text-decoration: none;
+    color: #595959;
+}
+
+
+/*-- ESTILO DE CARRERAS --*/
+
+.btn-block {
+    color: #ffffff;
+    background-color: #bf0411;
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0 !important;
+    transition: all 3s;
+    text-decoration: none;
+}
+
+.btn-block-2 {
+    color: #ffffff;
+    background-color: #7b7d80;
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0 !important;
+    transition: all 3s;
+    text-decoration: none;
+}
+
+.btn-block a {
+    text-decoration: none !important;
+    text-underline-position: none;
+}
+
+.btn-block:hover {
+    color: #bf0411;
+    background-color: #ffffff;
+    transition: all 3s;
+    text-decoration: none;
+}
+
+.btn-block-2:hover {
+    color: #bf0411;
+    background-color: #ffffff;
+    transition: all 3s;
+    text-decoration: none;
+}
+
+.btn-block::before {
+    content: "\f1c1";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    padding-right: 10px;
+    z-index: 999;
+}
+
+.btn-block-2::before {
+    content: "\f095";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    padding-right: 10px;
+    z-index: 999;
+}
